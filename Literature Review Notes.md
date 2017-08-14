@@ -427,22 +427,6 @@ and concolic testing
 
 ### Overview 
 
-<!-- Original (non-squashed)
-Zhang et al ([7]) proposed a new approach for generating and selecting test
-cases for deep execution paths. Deep execution paths are many in number so are
-very time consuming to test manually, vulnerabilities are likely to be found in
-these deep execution paths. Existing Fuzz and Concolic testing approaches
-generate a large number of test cases, but most of these involve using inputs
-that the program under test (PUT) would consider invalid. Invalid inputs do not
-allow the program to follow deep execution paths because the program would not
-progress far enough from the initial states (i.e. the program can only follow a
-shallow execution path). The proposed approach uses a Test Case Similarity
-metric (TCS) in order to find similar execution paths to some original deep
-path - in order to have high coverage of deep program states, a set of similar
-paths are required to since the program into related states. The proposed
-approach has been implemented in a tool called SimFuzz for experimentation [7].
--->
-
 Zhang et al ([7]) proposed a new approach for generating and selecting test
 cases for deep execution paths. Deep execution paths are many in number so are
 very time consuming to test manually, vulnerabilities are likely to be found in
@@ -460,24 +444,15 @@ The approach can be broken down into two phases, with an optional third phase
 The purpose of the first phase is to create a set of similar inputs that cause
 similar deep execution paths, using a proposed Incremental Mutation process.
 Begin with a valid input that creates a deep execution path, and break it into
-small segments. For each segment, perform a slight alteration and if the
-resulting input creates an execution with a high TCS to the original, add this
-to the set of test cases, and then repeat by performing a larger alteration.
-This process creates a range of inputs that are as broad as possible while
-still being able to focus on testing related execution path [7].
+small segments. For each segment, perform a slight alterations and add the
+altered input to the set of test cases. Stop when TCS lowers beyond some
+threshold is reached [7].
 
 The second phase involves combining multiple test cases from the first phase in
 order to create additional test case inputs. This is necessary for finding
 vulnerabilities that are only possible when multiple parts of the input have
 been malformed in specific ways, and also to make sure that related execution
 paths are explored by the test cases [7].
-
-The optional third phase is required only when there are not enough test cases
-generated from the previous two stages in order to provide sufficient coverage
-for the deep execution path. Because having a strictly high TCS requirement can
-filter out a large number of generated test cases in the first phase, retrying
-the entire process again with a lower TCS requirement can help to increase the
-coverage of the deep execution path [7].
 
 ### Advantages and Limitations
 
