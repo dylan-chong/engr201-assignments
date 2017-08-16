@@ -113,6 +113,12 @@
           vulnerabilities. "
     - 5 Security Issues and Related Concerns
         - Static security testing
+            - Code review
+                - Manual and automatic
+                - Can be done at the same time as the programming through peer
+                  programming
+                - Finds vulnerabilities early in the development process
+                - Developers may already do code review for checking code style
         - Dynamic security testing
             - Fuzz testing
                 - A program generates random test cases and runs them on the
@@ -277,14 +283,34 @@
                   loss can all cause issues for the program
                     - Could be tricky to time concurrent system
                 - [THOUGHT] Simulate network issues / data corruption
-                - [THOUGHT] Add a focus for language features that commonly cause
-                  problems - e.g. inputting objects of different types to check
-                  for weak typing issues in JavaScript
-    - How was it done
-    - Who did it
-        - Zhang et al.
-    - What is different / innovative / advantageous
-    - Any limitations / need for further research
+                - [THOUGHT] Add a focus for language features that commonly
+                  cause problems - e.g. inputting objects of different types to
+                  check for weak typing issues in JavaScript
+- 8.
+    - Security Code Review is a process where code is inspected the code for
+      the purpose of detecting possible vulnerabilities during the software
+      development process.
+    - A study of thirty developers manually reviewing code of a small web
+      application showed that it is very unlikely for code reviewers to find
+      all vulnerabilities.
+    - Shows a lot of false vulnerabilities when there are lots of true
+      vulnerabilities
+- 9.
+    - Compares multiple static C code analysis tools against some SAMATE
+      Reference Datasets
+    - SCA Tool detected the largest number of vulnerabilities out of the tested
+      tools - 66.5% - not a large enough percentage to rely on the tool as a
+      sole form of security testing
+    - Tested tools:
+        - individually, only detect a limited range of vulnerabilities - work
+          needs to be done to extend these tools to detect a larger range of
+          vulnerabilities
+            - except SCA
+        - According to Diaz and Bermejo [9], static code analysis tools should
+          be used in any organisation's software development because they
+          detect a significant percentage of vulnerabilities.
+        - [THOUGHT] More work is needed identifying what effective tools are in
+          different programming languages
 
 ## Workshop 1 exercise
 
@@ -525,6 +551,13 @@ Journal of Systems and Software, vol. 85, pp. 102-111, Jan. 2012.
         - SimFuzz: Test case similarity directed deep fuzzing
         - http://tewaharoa.victoria.ac.nz/primo_library/libweb/action/display.do?frbrVersion=4&tabs=viewOnlineTab&ct=display&fn=search&doc=TN_sciversesciencedirect_elsevierS0164-1212(11)00197-X&indx=2&recIds=TN_sciversesciencedirect_elsevierS0164-1212(11)00197-X&recIdxs=1&elementId=1&renderMode=poppedOut&displayMode=full&frbrVersion=4&rfnGrpCounter=1&rfnExcGrp=%3F&rfnExcGrp=%3F&dscnt=1&fctV=peer_reviewed&fctV=%5B2012+TO+2017%5D&vid=VUW&mode=Basic&mulExcFctN=facet_rtype&mulExcFctN=facet_rtype&fctExcV=reviews&fctExcV=newspaper_articles&rfnGrp=show_only&rfnGrp=1&tab=all&fctN=facet_tlevel&fctN=facet_searchcreationdate&vl(freeText0)=fuzz%20test&dstmp=1502578160772
         - http://www.sciencedirect.com.helicon.vuw.ac.nz/science/article/pii/S016412121100197X?via%3Dihub
+    - 8.
+        - An Empirical Study on the Effectiveness of Security Code Review
+        - https://link.springer.com/chapter/10.1007%2F978-3-642-36563-8_14
+    - 9.
+        - [NOT RELEVANT] Static analysis of source code security: Assessment of
+          tools against SAMATE tests
+        - http://www.sciencedirect.com/science/article/pii/S0950584913000384?via%3Dihub
 - Showing impact of software security
     - 2.
         - QUALITY SOFTWARE & SECURITY TESTING AND ITS IMPACT ON SOFTWARE
