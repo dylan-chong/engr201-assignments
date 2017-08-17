@@ -1,33 +1,35 @@
-# Automated Software Security Testing
+# Available methods for finding security vulnerabilities in software.
+
 #### Literature Review
 
 ## Abstract
 
-TODO LAST
+    TODO LAST
 
 -------------------------------------------------------------------------------
 
 ## Introduction
 
-Security issues in software can lead to security breaches by hackers, which
-usually lead to data loss or corruption, denial of service issues, and
-especially, privacy issues [2]. These can cause severe financial, material and
-credibility problems for the company organisation under attack [2], not to
-mention the potentially damaging effect it could have for investors, related
-companies / organisations, and citizens/consumers. A study of data security
-breaches showed that issues can reduce customer trust in the affected company /
-organisation, while positively affecting competitors [5]; this allows for the
-extortion of companies / organisations, especially by competitors. The number
-of security issues, especially for financial software, has increased [3],
-potentially raising concerns about customer finances. "Effective" means finding
-as many issues as possible while minimising the use of resources (such as time
-and money).
+Security vulnerabilities in software can lead to security breaches by hackers,
+which usually lead to data loss or corruption, denial of service issues, and
+especially, privacy issues [2]. Breaches cost billions of dollars every year
+[7]. A study of data security breaches showed that issues can reduce customer
+trust in the affected company / organisation, while positively affecting
+competitors [5]; this allows for the extortion of companies / organisations.
+The number of security issues, especially for financial software, has increased
+[3], potentially raising concerns about customer finances. 
 
-TODO talk about why automated is important
-TODO talk about ROLE
+Effective security testing techniques can be used to detect vulnerabilities in
+software, therefore reducing the probability of a breach. Effective techniques
+are those that find a large number of vulnerabilities, with as few false
+vulnerabilities as possible. They should be time and resource-efficent.
+
+This review will be useful for security testing researchers. It provides
+areas that poetentially need to be researched in this area.
 
 ## Available Methods
 
+    TODO NEAR THE END
 
 ### Fuzz Testing
 
@@ -90,7 +92,7 @@ order to prove its effectiveness and reveal any flaws.
 
 ### STRIDE Risk Analysis and Threat Modelling
 
-TODO link back to fuzz testingin the paragraph below?
+    TODO link back to fuzz testingin the paragraph below?
 
 Palanivel and Kanmani [6] proposed a security testing process that adds the
 STRIDE threat modelling approach used by Microsoft to an existing risk
@@ -123,12 +125,26 @@ test suite size by 13-21% [6].
 ### Static Code Analysis Tools
 
 
-### Summary
+### Unit Testing
 
+
+### (Manual) Code Review
+
+Manual Code Review, often referred to as just Code Review, is the process where
+the project's source code is inspected. Developers visually inspect that they
+did not write themselves [5] primarily for issues such as code style;
+developers can also inspect the code for security vulnerabilities at the same
+time. A study of thirty developers manually reviewing code of a small web
+application showed that it is very unlikely for code reviewers to find all
+vulnerabilities [8].
+
+### Summary of Available Methods
+
+    TODO NEAR THE END
 
 ## Discussion
 
-TODO
+    TODO AFTER TECHNIQUES ARE DONE
 
 The SimFuzz approach can be combined with Palanivel and Kanmani's risk
 analysis and threat modelling approach in order to prioritise the testing of
@@ -146,7 +162,14 @@ be possible to simulate concurrent systems which are hard to test thoroughly
 and prone to unpredictable behaviour at runtime - therefore it may be worth
 testing these systems for vulnerabilities.
 
+Manual Code Review is unlikely to reveal a high portion of the vulnerabilities
+in software [5], so this method should not the primary method of security
+testing. Developers may already do Manual Code Review for checking code style,
+so additionally checking for security vulnerabilities would likely not take
+much additional time. Therefore, it is recommended that this process should be
+implemented.
+
 ## Conclusion
 
-TODO
+    TODO ALMOST LAST
 

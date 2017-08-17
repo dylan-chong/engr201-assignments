@@ -12,15 +12,19 @@
         - Pros/cons
     - Conclusion
         - What future research should be
-    - Ideally 10 peer-reviewed papers
 
 ## Notes
 
-- RAFT // TODO
-  - Role
-  - Audience
-  - Form
-  - Tone
+- RAFT
+    - Role
+        - Contributing to the community and knowledge of security testing
+          researchers and providing direction as to what a research next
+    - Audience
+        - The community of researchers
+    - Form
+        - Easy
+    - Tone
+        - Easy
 
 - 2.
     - "Purpose of security testing is identifying and removing the flaws
@@ -429,11 +433,6 @@ Moved to Review Doc
 
 Moved to review doc
 
-### References
-
-[7] D. Zhang et al, "SimFuzz: Test case similarity directed deep fuzzing,"
-Journal of Systems and Software, vol. 85, pp. 102-111, Jan. 2012.
-
 ## Resources
 
 - Security testing techniques
@@ -463,6 +462,9 @@ Journal of Systems and Software, vol. 85, pp. 102-111, Jan. 2012.
         - SimFuzz: Test case similarity directed deep fuzzing
         - http://tewaharoa.victoria.ac.nz/primo_library/libweb/action/display.do?frbrVersion=4&tabs=viewOnlineTab&ct=display&fn=search&doc=TN_sciversesciencedirect_elsevierS0164-1212(11)00197-X&indx=2&recIds=TN_sciversesciencedirect_elsevierS0164-1212(11)00197-X&recIdxs=1&elementId=1&renderMode=poppedOut&displayMode=full&frbrVersion=4&rfnGrpCounter=1&rfnExcGrp=%3F&rfnExcGrp=%3F&dscnt=1&fctV=peer_reviewed&fctV=%5B2012+TO+2017%5D&vid=VUW&mode=Basic&mulExcFctN=facet_rtype&mulExcFctN=facet_rtype&fctExcV=reviews&fctExcV=newspaper_articles&rfnGrp=show_only&rfnGrp=1&tab=all&fctN=facet_tlevel&fctN=facet_searchcreationdate&vl(freeText0)=fuzz%20test&dstmp=1502578160772
         - http://www.sciencedirect.com.helicon.vuw.ac.nz/science/article/pii/S016412121100197X?via%3Dihub
+        - [7] D. Zhang et al, "SimFuzz: Test case similarity directed deep
+          fuzzing," Journal of Systems and Software, vol. 85, pp. 102-111, Jan.
+          2012.
     - 8.
         - An Empirical Study on the Effectiveness of Security Code Review
         - https://link.springer.com/chapter/10.1007%2F978-3-642-36563-8_14
