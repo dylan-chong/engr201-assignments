@@ -24,8 +24,10 @@ software, therefore reducing the probability of a breach. Effective techniques
 are those that find a large number of vulnerabilities, with as few false
 vulnerabilities as possible. They should be time and resource-efficent.
 
-This review will be useful for security testing researchers. It provides
-areas that poetentially need to be researched in this area.
+This review will be useful for security testing researchers, developers, as
+well as executives who work for any organisation involved with software. This
+review also provides areas that potentially need to be researched in this
+area.
 
 ## Available Methods
 
