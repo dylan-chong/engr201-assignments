@@ -26,23 +26,21 @@ vulnerabilities as possible. They should be time and resource-efficent.
 
 This review will be useful for security testing researchers, developers, as
 well as executives who work for any organisation involved with software. This
-review also provides areas that potentially need to be researched in this
-area.
+review also provides areas that potentially need to be researched in this area.
 
 ## Available Methods
 
     TODO NEAR THE END
 
-### Fuzz Testing
+### Black-Box Fuzz Testing
 
+    TODO
 
-#### Black-Box Fuzz Testing
+### White-Box Fuzz Testing - Symbolic Execution
 
+    TODO
 
-#### White-Box Fuzz Testing - Symbolic Execution
-
-
-#### SimFuzz
+### SimFuzz
 
 Zhang et al ([7]) proposed a new approach for generating and selecting test
 cases for deep execution paths. It as been implemented in a tool called SimFuzz
@@ -53,7 +51,7 @@ metric (TCS) in order to find similar execution paths to some original deep
 path - the resulting set of paths provide high testing coverage around the
 original path. 
 
-##### Phases
+#### Phases
 
 The SimFuzz approach can be broken down into two phases.
 
@@ -70,7 +68,7 @@ vulnerabilities that are only possible when multiple parts of the input have
 been malformed in specific ways, and also to make sure that related execution
 paths are explored by the test cases [7].
 
-##### Advantages and Limitations
+#### Advantages and Limitations
 
 The SimFuzz approach is very efficient because test cases are created
 intentionally and selectively because only the important test cases are
@@ -117,6 +115,8 @@ threat (using metrics such as risk impact - the number of (dependent) states
 the threat could affect). Finally, the tests that involve a high number of high
 risk states are selected from a generated set of test cases [6].
 
+    TODO do i have to mention the existing process as its own method?
+
 In comparison with the existing process, which did not use the STRIDE approach
 for threat modelling and used different metrics in the Risk Analysis phase, the
 proposed process yielded a three times greater total risk value; this implies
@@ -126,9 +126,15 @@ test suite size by 13-21% [6].
 
 ### Static Code Analysis Tools
 
-
-### Unit Testing
-
+Static code analysis tools inspect the source code of a software project to
+detect a predefined range of vulnerabilities. A study compared several multiple
+C code analysis tools by using them on software with known vulnerabilities.
+Most of the tools, individually, were only designed to detect a limited range
+of vulnerabilities. The vulnerability detection rate was too low for any of
+the tools to be used as a primary method for security testing - at best, the
+detection rate was 67%. These tools are easy to execute, however, results can
+show false vulnerabilities, so the results of the analysis must be checked by a
+developer [9].
 
 ### (Manual) Code Review
 
@@ -164,12 +170,25 @@ be possible to simulate concurrent systems which are hard to test thoroughly
 and prone to unpredictable behaviour at runtime - therefore it may be worth
 testing these systems for vulnerabilities.
 
+
+
+
+
+
+    TODO NEXT discussed static analysis tools benefits and drawbacks,future
+    research
+
+
+
+
+
+
 Manual Code Review is unlikely to reveal a high portion of the vulnerabilities
 in software [5], so this method should not the primary method of security
 testing. Developers may already do Manual Code Review for checking code style,
 so additionally checking for security vulnerabilities would likely not take
 much additional time. Therefore, it is recommended that this process should be
-implemented.
+implemented and any organisation that creates or maintains software.
 
 ## Conclusion
 
