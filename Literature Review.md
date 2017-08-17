@@ -170,17 +170,14 @@ be possible to simulate concurrent systems which are hard to test thoroughly
 and prone to unpredictable behaviour at runtime - therefore it may be worth
 testing these systems for vulnerabilities.
 
-
-
-
-
-
-    TODO NEXT discussed static analysis tools benefits and drawbacks,future
-    research
-
-
-
-
+Static code analysis tools tested by Diaz and Bermejo [9] only test for a
+limited range of vulnerabilities, therefore it is not recommended to heavily
+rely on these tools. Despite this, it is still highly recommended to use these
+tools because they are easy to execute and they were still able to detect
+37-67% of the vulnerabilities in the tested code [9]. More work is needed
+identifying what static code analysis tools are effective for programming
+languages other than C, as well as extending tools to detect a larger range of
+vulnerabilities.
 
 
 Manual Code Review is unlikely to reveal a high portion of the vulnerabilities
