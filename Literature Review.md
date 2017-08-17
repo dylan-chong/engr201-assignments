@@ -17,7 +17,7 @@ especially, privacy issues [2]. Breaches cost billions of dollars every year
 trust in the affected company / organisation, while positively affecting
 competitors [5]; this allows for the extortion of companies / organisations.
 The number of security issues, especially for financial software, has increased
-[3], potentially raising concerns about customer finances. 
+[3], potentially raising concerns about customer finances.
 
 Effective security testing techniques can be used to detect vulnerabilities in
 software, therefore reducing the probability of a breach. Effective techniques
@@ -28,17 +28,34 @@ This review will be useful for security testing researchers, developers, as
 well as executives who work for any organisation involved with software. This
 review also provides areas that potentially need to be researched in this area.
 
-## Available Methods
+
+## Definitions
+
+This section outlines some existing security testing methods that have been
+developed or used in testing methods described in the 'Available Security
+Testing Methods' section.
+
+### Fuzz Testing
+
+Fuzz testing is a testing approach where different program inputs are
+automatically executed against the Program Under Test (SUT), and if an
+exception / error occurs, a potential security vulnerability is revealed.
+Inputs are often automatically altered in order to generate new program inputs
+for further testing [7]. The inputs for a single execution of the program make
+up a single test case. All of the program inputs (i.e. all of the test cases)
+make up a test suite.
+
+Black-Box Fuzz testing methods do not require the source code to be able to
+generate program inputs. White-Box Fuzz testing methods, by definition, require
+access to the program source code or a executable binary of the program to
+generate program inputs. Symbolic Execution can be used in White-Box Fuzz
+testing methods - it involves inspecting the code to figure out all the
+possible execution paths, and then figuring out what inputs are required in
+order to ensure these paths are executed [7].
+
+## Available Security Testing Methods
 
     TODO NEAR THE END
-
-### Black-Box Fuzz Testing
-
-    TODO
-
-### White-Box Fuzz Testing - Symbolic Execution
-
-    TODO
 
 ### SimFuzz
 
@@ -49,7 +66,7 @@ time consuming to test manually, vulnerabilities are likely to be found in
 these deep execution paths. The proposed approach uses a Test Case Similarity
 metric (TCS) in order to find similar execution paths to some original deep
 path - the resulting set of paths provide high testing coverage around the
-original path. 
+original path.
 
 #### Phases
 
@@ -178,7 +195,6 @@ tools because they are easy to execute and they were still able to detect
 identifying what static code analysis tools are effective for programming
 languages other than C, as well as extending tools to detect a larger range of
 vulnerabilities.
-
 
 Manual Code Review is unlikely to reveal a high portion of the vulnerabilities
 in software [5], so this method should not the primary method of security
