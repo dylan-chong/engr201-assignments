@@ -62,7 +62,7 @@ A STRIDE-based approach identifies high-risk test cases in an automatically
 generated test suite in order to increase the efficiency of executing the
 suite. Static Code Analysis tools inspect source code in order to find
 vulnerabilities. Code Review is not an automated process, but is a way of
-finding security vulnerabilities early in the development process. 
+finding security vulnerabilities early in the development process.
 
 ### SimFuzz
 
@@ -194,6 +194,14 @@ The stride analysis approach could even be combined with the SimFuzz approach
 for this purpose. Work is needed to determine the feasibility of this
 approach.
 
+One possible disadvantage of the STRIDE approach is that it may take a
+significant amount of time for the State Representation phase. Large software
+projects would have an extremely large number of states, so it would be
+unfeasible to complete this phase manually. Automation of this process is
+likely to be the only feasible large-scale option, however the paper did not
+consider this problem. Automated solutions must be explored, otherwise the
+entire STRIDE approach is impractical.
+
 Static code analysis tools tested by Diaz and Bermejo [9] only test for a
 limited range of vulnerabilities, therefore it is not recommended to heavily
 rely on these tools. Despite this, it is still highly recommended to use these
@@ -213,4 +221,16 @@ implemented and any organisation that creates or maintains software.
 ## Conclusion
 
     TODO ALMOST LAST
+    - link to intro
+        - work towards saving billions, avoiding data loss and privacy issues
+    - list techs, future work
+        - simfuzz approach shows promise, espe
+        - stride approach
+        - static analysis can be useful
+        - code review should be used
+    - Such techniques help to discover vulnerabilities in massive software
+      systems. Automated testing processes can provide significant assistance
+      to the testing process. They could one day be more effective at security
+      testing than humans at throroughly testing large software systems due to
+      their potential speed.
 
