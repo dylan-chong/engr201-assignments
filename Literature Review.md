@@ -1,14 +1,18 @@
-# Available methods for finding security vulnerabilities in software.
+---
+title: Available methods for finding security vulnerabilities in software
+subtitle: Literature Review
+author:
+    - Dylan Chong
+date: \today{}
+---
 
-#### Literature Review
-
-## Abstract
+# Abstract
 
     TODO LAST
 
 -------------------------------------------------------------------------------
 
-## Introduction
+# Introduction
 
 Security vulnerabilities in software can lead to security breaches by hackers,
 which usually lead to data loss or corruption, denial of service issues, and
@@ -29,13 +33,13 @@ well as executives who work for any organisation involved with software. This
 review also provides areas that potentially need to be researched in this area.
 
 
-## Definitions
+# Definitions
 
 This section outlines some existing security testing methods that have been
 developed or used in testing methods described in the 'Available Security
 Testing Methods' section.
 
-### Fuzz Testing
+## Fuzz Testing
 
 Fuzz testing is a testing approach where different program inputs are
 automatically executed against the Program Under Test (SUT), and if an
@@ -53,7 +57,7 @@ testing methods - it involves inspecting the code to figure out all the
 possible execution paths, and then figuring out what inputs are required in
 order to ensure these paths are executed [7].
 
-## Available Security Testing Methods
+# Available Security Testing Methods
 
 Much of the research into security testing in the last five years appears to
 have focussed around the development of automated security testing methods.
@@ -64,7 +68,7 @@ suite. Static Code Analysis tools inspect source code in order to find
 vulnerabilities. Code Review is not an automated process, but is a way of
 finding security vulnerabilities early in the development process.
 
-### SimFuzz
+## SimFuzz
 
 Zhang et al ([7]) proposed a new approach for generating and selecting test
 cases for deep execution paths. It as been implemented in a tool called SimFuzz
@@ -75,7 +79,7 @@ metric (TCS) in order to find similar execution paths to some original deep
 path - the resulting set of paths provide high testing coverage around the
 original path.
 
-#### Phases
+### Phases
 
 The SimFuzz approach can be broken down into two phases.
 
@@ -92,7 +96,7 @@ vulnerabilities that are only possible when multiple parts of the input have
 been malformed in specific ways, and also to make sure that related execution
 paths are explored by the test cases [7].
 
-#### Advantages and Limitations
+### Advantages and Limitations
 
 The SimFuzz approach is very efficient because test cases are created
 intentionally and selectively because only the important test cases are
@@ -114,7 +118,7 @@ being introduced [7]. More testing is needed on large, real world software in
 order to prove its effectiveness and reveal any flaws.
 
 
-### STRIDE Risk Analysis and Threat Modelling
+## STRIDE Risk Analysis and Threat Modelling
 
 Palanivel and Kanmani [6] proposed a security testing process that adds the
 STRIDE threat modelling approach used by Microsoft to an existing risk
@@ -142,7 +146,7 @@ size by 13-21% in the example cases [6], i.e. 13-21% low risk test cases were
 removed. This shows that the proposed process was able to identify the high
 risk test cases.
 
-### Static Code Analysis Tools
+## Static Code Analysis Tools
 
 Static code analysis tools inspect the source code of a software project to
 detect a predefined range of vulnerabilities. A study compared several multiple
@@ -154,7 +158,7 @@ detection rate was 67%. These tools are easy to execute, however, results can
 show false vulnerabilities, so the results of the analysis must be checked by a
 developer [9].
 
-### Manual Code Review
+## Manual Code Review
 
 Manual Code Review, often referred to as just Code Review, is the process where
 the project's source code is inspected. Developers visually inspect that they
@@ -165,7 +169,7 @@ application showed that it is very unlikely for code reviewers to find all
 vulnerabilities [8]. Code Review happens before the testing process in a
 development cycle, so can find vulnerabilities early.
 
-## Discussion
+# Discussion
 
 The SimFuzz approach can be combined with Palanivel and Kanmani's risk
 analysis and threat modelling approach in order to prioritise the testing of
@@ -218,7 +222,7 @@ so additionally checking for security vulnerabilities would likely not take
 much additional time. Therefore, it is recommended that this process should be
 implemented and any organisation that creates or maintains software.
 
-## Conclusion
+# Conclusion
 
     TODO ALMOST LAST
     - link to intro
