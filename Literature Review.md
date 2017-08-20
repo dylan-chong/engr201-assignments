@@ -58,12 +58,9 @@ required to execute all possible execution paths [7].
 
 Much of the research into security testing in the last five years appears to
 have focussed around the development of automated security testing methods.
-SimFuzz expands on Black-Box Fuzzing in order to provide more thorough testing.
-A STRIDE-based approach identifies high-risk test cases in an automatically
-generated test suite in order to increase the efficiency of executing the
-suite. Static Code Analysis tools inspect source code in order to find
-vulnerabilities. Code Review is not an automated process, but is a way of
-finding security vulnerabilities early in the development process.
+SimFuzz and the STRIDE approach focus on selecting/generating high-risk test
+cases, and static code analysis tools automatically detect vulnerabilities in
+source code.
 
 ## SimFuzz
 
@@ -74,16 +71,12 @@ approach uses a Test Case Similarity metric (TCS) in order to find similar
 execution paths to some original deep path, in order to provide high coverage
 for the deep states.
 
-### Phases
-
 The SimFuzz approach can be broken down into two phases. The first phase
 involves Incremental Mutation: breaking up a valid input into segments and
 making small alterations to each (each new input makes a new test case). The
 second phase involves combining multiple test cases from the first phase in
 order to create additional test case inputs. Both of these phases create inputs
 that have high TCS, ensuring high coverage of the involved states [7].
-
-### Advantages and Limitations
 
 Executing generated SimFuzz tests is very efficient for large programs because
 test cases are created intentionally and selectively - the existing White-Box
@@ -130,37 +123,25 @@ developer [9].
 
 # Discussion
 
-The SimFuzz approach can be combined with Palanivel and Kanmani's risk
+The SimFuzz approach could be combined with Palanivel and Kanmani's risk
 analysis and threat modelling approach in order to prioritise the testing of
 execution paths that involve high risk operations. Prioritised paths can then
 be tested more thoroughly in order to increase the probability of finding
-hidden vulnerabilities.
+hidden vulnerabilities. Work is required to test the feasibility of this
+approach.
 
 Zhang et al intend to extend the SimFuzz tool to work with binary executables
 and web applications [7]. The application of the tool to the web could be
 particularly useful especially in a language such as JavaScript which uses weak
-typing - a feature that can cause unexpected issues to arise. The tool could
-also be extended to simulate network connectivity quality, in order to test
-states that can only be reached by corrupting incoming data. Potentially it may
-be possible to simulate concurrent systems which are hard to test thoroughly
-and prone to unpredictable behaviour at runtime - therefore it may be worth
-testing these systems for vulnerabilities.
+typing - a feature that can cause unexpected issues to arise. Potentially it
+may be possible to simulate concurrent systems which are hard to test
+thoroughly and prone to unpredictable behaviour at runtime - therefore it may
+be worth testing these systems for vulnerabilities.
 
 Vulnerabilities were intentionally introduced to programs tested by SimFuzz
 [7], so the promising test results do not represent real programs. More work is
 needed to test SimFuzz on real-world programs in order to prove its
 effectiveness.
-
-The STRIDE analysis approach was able to identify the high risk guest cases and
-remove the low risk test cases from the generated test suite. The benefit of
-this is the test suite execution process can be done in 13-21% less time than
-if this STRIDE analysis approach was not applied. This proposed approach could
-be used, not to speed up the test suite execution process, but to identify the
-high risk test cases so that more similar cases can be generated - this would
-allow high risk parts of the program under test to be tested more thoroughly.
-The stride analysis approach could even be combined with the SimFuzz approach
-for this purpose. Work is needed to determine the feasibility of this
-approach.
 
 One possible disadvantage of the STRIDE approach is that it may take a
 significant amount of time for the State Representation phase. Large software
