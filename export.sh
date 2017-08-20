@@ -1,9 +1,15 @@
 #/bin/bash
-OUT_FILE=$(mktemp -t ".literature-review")
+
+IN_FILE=$1
+if [ -z "$IN_FILE" ]; then
+    IN_FILE="Literature Review.md"
+fi
+
+OUT_FILE=$(mktemp)
 mv "$OUT_FILE" "$OUT_FILE.pdf"
 OUT_FILE="$OUT_FILE.pdf"
 
-pandoc 'Literature Review.md' -o "$OUT_FILE" \
+pandoc "$IN_FILE" -o "$OUT_FILE" \
     --variable="linestretch=1.5" \
     --variable="margin-left=2cm" \
     --variable="margin-right=2cm" \
