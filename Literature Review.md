@@ -162,17 +162,54 @@ vulnerabilities.
 
 # Conclusion
 
-    TODO ALMOST LAST
-    - link to intro
-        - work towards saving billions, avoiding data loss and privacy issues
-    - list techs, future work
-        - simfuzz approach shows promise, espe
-        - stride approach
-        - static analysis can be useful
-        - code review should be used
-    - Such techniques help to discover vulnerabilities in massive software
-      systems. Automated testing processes can provide significant assistance
-      to the testing process. They could one day be more effective at security
-      testing than humans at throroughly testing large software systems due to
-      their potential speed.
+Much of the research into security testing in the last five years shows
+promise. The SimFuzz approach was able to thoroughly test the example software
+[7], could be extended to support concurrent systems, and could be combined
+with the STRIDE approach to thoroughly test high-risk parts of software. More
+work is needed to determine the viability of the STRIDE approach, and
+investigate/extend static code analysis tools.
 
+Such security testing methods help to discover vulnerabilities in software
+systems. Automated testing processes can provide significant assistance to the
+testing process. They could be more effective at security testing than humans
+at throroughly testing large software systems, due to their potential speed.
+Developments in these security testing methods could help to prevent privacy
+leaks, data loss, and loss of billions of dollars \[2][7].
+
+# References
+
+    - 2.
+        - QUALITY SOFTWARE & SECURITY TESTING AND ITS IMPACT ON SOFTWARE
+          PRODUCT
+        - This is not very good for finding techniques
+        - http://tewaharoa.victoria.ac.nz/primo_library/libweb/action/display.do?tabs=viewOnlineTab&ct=display&fn=search&doc=TN_proquest1762123759&indx=2&recIds=TN_proquest1762123759&recIdxs=1&elementId=1&renderMode=poppedOut&displayMode=full&frbrVersion=5&frbg=&rfnGrpCounter=1&dscnt=0&scp.scps=scope%3A%28JNZS_vuw_ac_nz%29%2Cscope%3A%28Exams_vuw_ac_nz%29%2Cscope%3A%28NZJIR_vuw_ac_nz%29%2Cscope%3A%28researcharchive_vuw_ac_nz%29%2Cscope%3A%28NZREF_vuw_ac_nz%29%2Cscope%3A%28AJL_vuw_ac_nz%29%2Cscope%3A%28LEW_vuw_ac_nz%29%2Cscope%3A%28KOTARE_vuw_ac_nz%29%2Cscope%3A%28NZAROE_vuw_ac_nz%29%2Cscope%3A%2864VUW%29%2Cprimo_central_multiple_fe&tb=t&vl(547469497UI0)=any&fctV=peer_reviewed&fctV=%5B2012+TO+2017%5D&mode=Basic&vid=VUW&rfnGrp=show_only&rfnGrp=1&srt=rank&tab=all&fctN=facet_tlevel&fctN=facet_searchcreationdate&dum=true&vl(freeText0)=testing%20software%20security&dstmp=1501195581300
+        - https://search-proquest-com.helicon.vuw.ac.nz/docview/1721566667/fulltext/C388CAFEDB6E4D5CPQ/1?accountid=14782
+    - 3.
+        - Finding More Than One Worm in the Apple
+        - http://tewaharoa.victoria.ac.nz/primo_library/libweb/action/display.do?frbrVersion=4&tabs=viewOnlineTab&ct=display&fn=search&doc=TN_acm2622630&indx=3&recIds=TN_acm2622630&recIdxs=2&elementId=2&renderMode=poppedOut&displayMode=full&frbrVersion=4&frbg=&rfnGrpCounter=1&dscnt=0&scp.scps=scope%3A%28JNZS_vuw_ac_nz%29%2Cscope%3A%28Exams_vuw_ac_nz%29%2Cscope%3A%28NZJIR_vuw_ac_nz%29%2Cscope%3A%28researcharchive_vuw_ac_nz%29%2Cscope%3A%28NZREF_vuw_ac_nz%29%2Cscope%3A%28AJL_vuw_ac_nz%29%2Cscope%3A%28LEW_vuw_ac_nz%29%2Cscope%3A%28KOTARE_vuw_ac_nz%29%2Cscope%3A%28NZAROE_vuw_ac_nz%29%2Cscope%3A%2864VUW%29%2Cprimo_central_multiple_fe&tb=t&vl(547469497UI0)=any&fctV=peer_reviewed&fctV=%5B2012+TO+2017%5D&mode=Basic&vid=VUW&rfnGrp=show_only&rfnGrp=1&srt=rank&tab=all&fctN=facet_tlevel&fctN=facet_searchcreationdate&dum=true&vl(freeText0)=testing%20software%20security&dstmp=1501299321432
+        - http://dl.acm.org.helicon.vuw.ac.nz/citation.cfm?doid=2622628.2622630
+    - 5.
+        - [HAVEN'T DONE MUCH READING] Trust considerations on attitudes towards
+          online purchasing: The moderating effect of privacy and security
+          concerns
+        - http://tewaharoa.victoria.ac.nz/primo_library/libweb/action/display.do?frbrVersion=3&tabs=viewOnlineTab&ct=display&fn=search&doc=TN_gale_ofa480357447&indx=3&recIds=TN_gale_ofa480357447&recIdxs=2&elementId=2&renderMode=poppedOut&displayMode=full&frbrVersion=3&frbg=&&dscnt=0&scp.scps=scope%3A%28JNZS_vuw_ac_nz%29%2Cscope%3A%28Exams_vuw_ac_nz%29%2Cscope%3A%28NZJIR_vuw_ac_nz%29%2Cscope%3A%28researcharchive_vuw_ac_nz%29%2Cscope%3A%28NZREF_vuw_ac_nz%29%2Cscope%3A%28AJL_vuw_ac_nz%29%2Cscope%3A%28LEW_vuw_ac_nz%29%2Cscope%3A%28KOTARE_vuw_ac_nz%29%2Cscope%3A%28NZAROE_vuw_ac_nz%29%2Cscope%3A%2864VUW%29%2Cprimo_central_multiple_fe&tb=t&vl(547469497UI0)=any&vid=VUW&mode=Basic&srt=rank&tab=all&dum=true&vl(freeText0)=security%20issue%20%28%22citezen%22%20OR%20%22customer%22%29&dstmp=1501479487104
+        - http://www.sciencedirect.com.helicon.vuw.ac.nz/science/article/pii/S0148296309001933?via%3Dihub
+    - 6.
+        - Risk-driven security testing using risk analysis with threat modeling
+          approach
+        - https://springerplus.springeropen.com/articles/10.1186/2193-1801-3-754
+        - http://tewaharoa.victoria.ac.nz/primo_library/libweb/action/display.do?frbrVersion=5&tabs=viewOnlineTab&ct=display&fn=search&doc=TN_springer_jour10.1186%2f2193-1801-3-754&indx=1&recIds=TN_springer_jour10.1186%2f2193-1801-3-754&recIdxs=0&elementId=0&renderMode=poppedOut&displayMode=full&frbrVersion=5&frbg=&dscnt=0&scp.scps=scope%3A%28JNZS_vuw_ac_nz%29%2Cscope%3A%28Exams_vuw_ac_nz%29%2Cscope%3A%28NZJIR_vuw_ac_nz%29%2Cscope%3A%28researcharchive_vuw_ac_nz%29%2Cscope%3A%28NZREF_vuw_ac_nz%29%2Cscope%3A%28AJL_vuw_ac_nz%29%2Cscope%3A%28LEW_vuw_ac_nz%29%2Cscope%3A%28KOTARE_vuw_ac_nz%29%2Cscope%3A%28NZAROE_vuw_ac_nz%29%2Cscope%3A%2864VUW%29%2Cprimo_central_multiple_fe&tb=t&vl(547469497UI0)=any&fctV=peer_reviewed&mode=Basic&vid=VUW&rfnGrp=show_only&tab=all&srt=rank&fctN=facet_tlevel&vl(freeText0)=security%20testing&dum=true&dstmp=1501907385085
+    - 7.
+        - SimFuzz: Test case similarity directed deep fuzzing
+        - http://tewaharoa.victoria.ac.nz/primo_library/libweb/action/display.do?frbrVersion=4&tabs=viewOnlineTab&ct=display&fn=search&doc=TN_sciversesciencedirect_elsevierS0164-1212(11)00197-X&indx=2&recIds=TN_sciversesciencedirect_elsevierS0164-1212(11)00197-X&recIdxs=1&elementId=1&renderMode=poppedOut&displayMode=full&frbrVersion=4&rfnGrpCounter=1&rfnExcGrp=%3F&rfnExcGrp=%3F&dscnt=1&fctV=peer_reviewed&fctV=%5B2012+TO+2017%5D&vid=VUW&mode=Basic&mulExcFctN=facet_rtype&mulExcFctN=facet_rtype&fctExcV=reviews&fctExcV=newspaper_articles&rfnGrp=show_only&rfnGrp=1&tab=all&fctN=facet_tlevel&fctN=facet_searchcreationdate&vl(freeText0)=fuzz%20test&dstmp=1502578160772
+        - http://www.sciencedirect.com.helicon.vuw.ac.nz/science/article/pii/S016412121100197X?via%3Dihub
+        - [7] D. Zhang et al, "SimFuzz: Test case similarity directed deep
+          fuzzing," Journal of Systems and Software, vol. 85, pp. 102-111, Jan.
+          2012.
+    - 8.
+        - An Empirical Study on the Effectiveness of Security Code Review
+        - https://link.springer.com/chapter/10.1007%2F978-3-642-36563-8_14
+    - 9.
+        - [NOT RELEVANT] Static analysis of source code security: Assessment of
+          tools against SAMATE tests
+        - http://www.sciencedirect.com/science/article/pii/S0950584913000384?via%3Dihub
