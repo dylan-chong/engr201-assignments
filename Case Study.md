@@ -11,7 +11,7 @@ Randsomware such as Wannacry, NotPetya, and Locky prevent access to computer
 files, often by encrypting the files, and demanding a payment to decrypt them.
 They often spread, automatically, affecting a large number of users.
 
-<!-- TODO are used callan feedback -->
+**TODO used callan feedback**
 
 Wannacry affected at least 45,000 computers, and was able to prevent work at
 least 16 hospitals in the United Kingdom this year since medical records could
@@ -38,11 +38,12 @@ Wannacry used a vulnerability called called 'EternalBlue', which may have been
 developed by the NSA [2]. This vulnerability exists in various versions of
 windows ranging from Windows XP to Windows Server 2008 R2 - it did not exist on
 later versions of Windows [5]. EternalBlue exploits a bug in the Server Message
-Block protocol (a protocol for file sharing and remote Windows services) to
-install Wannacry on a remote computer \[13]\[14]. 
+Block (SMB) protocol (a protocol for file sharing and remote Windows services)
+to install Wannacry on a remote computer \[13]\[14]. 
 
 Wannacry may also take advantage of phishing emails (emails that trick the user
-into installing malicious software) although this has not been confirmed [1].
+into installing malicious software) although this has not been confirmed
+\[1][17].
 
 Wellington Hospital will be especially at risk from Wannacry if it uses a
 vulnerable Windows version, if the staff are not well aware of phishing emails
@@ -58,12 +59,19 @@ and demands a payment for decryption, but once the payment has been made,
 decryption is still possible because the required key is discarded [3].
 
 NotPetya exploits bugs in the Windows management tools PSExec and WMI [3] and
-the previously mentioned EternalBlue vulnerability [4] to install NotPetya on
-remote computers. NotPetya also searches for (network administrator)
+the previously mentioned EternalBlue [4] and SMB [18] vulnerabilities to
+install NotPetya on remote computers. NotPetya also searches for administrator
 credentials and the computers memory, and use them to access and infect other
 computers on the network. This technique can be very effective because many
 organisations' networks have an administrator that has full access to all other
-machines on the network [13].
+machines on the network. Once the administrator credentials have been
+retrieved, they can be used to infect the entire network with NotPetya [13].
+
+NotPetya has also used a Software Supply Chain Attack to infect computers in
+the Ukraine [19]. This type of attack involves compromising a third-party
+software supplier of the target organisation, so the target organisation
+becomes infected with NotPetya when the software is downloaded/updated and run
+[20].
 
 Wellington Hospital is especially at risk from NotPetya if it's systems use the
 aforementioned Windows management tools, and/or a Windows version that is
@@ -75,13 +83,75 @@ vulnerable to EternalBlue (these are mentioned in the Wannacry section above).
 
 # Available Prevention Methods
 
-- Upgrade software
-    - 
-    - Microsoft released updates
-- Disable SMB v1 [3]
+## Regularly Install Software Updates
+
+Regularly installing software updates is very important in protecting against
+ransomware, particularly with security updates for the operating systems
+\[3][5]. Microsoft was able to release a security update to protect vulnerable
+Windows operating systems against Wannacry, and another to find and remove
+the Wannacry ransomware [17].
+
+There are two advantages to this prevention method. Firstly, the updates
+address the vulnerability directly, rather than reduce the probability of
+ransomware infecting the entire network like the 'Limit Administrator Account
+Permissions' method described further below. Secondly, it is not time-consuming
+to install the updates on computers that are not used 100% of the time. If
+there are groups of computers that is used 100% of the time, then updates could
+be installed to a few computers at a time so that there would be at least one
+computer that is available 100% of the time.
+
+## Install the Latest Operating System
+
+Installing the latest versions of the operating systems can help as well, for
+example, the EternalBlue vulnerability only existed on older versions of
+Windows - i.e. not Microsoft's latest version of Windows, Windows 10 [5]. 
+
+There are a few disadvantages to installing the latest operating system.
+Firstly, there is potentially large amount of work required to update a large
+number of computers. Secondly, any existing, multiple-year-long contracts with
+Microsoft for using a specific operating system could inhibit upgrades. Lastly,
+application software that Wellington Hospital uses may not have been tested
+thoroughly on, or support, the newest operating systems.
+
+## Educate Staff to Recognise Phishing Attacks
+
+- Making employees part of the security plan [15] **TODO NEXT**
+    - 'Customers should use vigilance when opening documents from untrusted or
+    unknown sources.' [17]
+
+Multiple sources recommend that staff should be careful when opening email
+attachments, especially when the email was sent from an unfamiliar or
+suspicious source \[15][17]. This is because ransomware, potentially including
+Wannacry \[1][17], can be introduced to a computer through phishing attacks
+involving email attachments - opening the email attachments could cause the
+randsomware to be introduced. Making staff are aware of these types of emails
+could reduce the probability of infection via email attachments.
+
+## Disable the SMB v1 Protocol
+
+Both Wannacry and NotPetya exploit a vulnerability in the SMB v1 protocol to
+spread themselves to multiple computers \[13]\[14][18]. According to Microsoft,
+SMB v1 is almost 30 years old and was not designed to follow modern security
+standards. Later versions of SMB use several methods/protocols to make these
+versions of SMB much more secure [21].
+
+It is highly recommended that SMB v1 should be disabled to improve the security
+of Windows systems \[3][21]. Instructions on how to disable the protocol can be
+found on Microsoft's website ([21]).
+
+SMB v1 can be avoided by most organisations. If Wellington Hospital still uses
+Windows XP or Windows Server 2003, uses old management software, or old
+multifunction printers, then SMB v1 may still be required [21]. More details
+can be found on Microsoft's website ([21]).
+
+## Limit Administrator Account Permissions
+
+**TODO next**
+
 - Use administrator credentials sparingly. Don’t use a flat network and tightly
 control administrator credentials. Also, elevate only when necessarily. [12]
-- Use virtual containers
-- Making employees part of the security plan [15]
+    - Admin accounts could have limited access - multiple accounts can be used
+    to still provide access to the entire system / network, however this way,
+    if one administrator account is compromised
 
 # Recommended Prevention Methods
