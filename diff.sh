@@ -1,5 +1,5 @@
 #/bin/bash
 
-git show 'head:Literature Review.md' >> .temp
-git diff --no-index --word-diff-regex=[^[:space:]] .temp 'Literature Review.md'
+git show 'head:Case Study.md' >> .temp
+git diff --no-index --word-diff-regex=[^[:space:]] .temp 'Case Study.md'
 rm .temp

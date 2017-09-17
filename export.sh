@@ -2,7 +2,7 @@
 
 IN_FILE=$1
 if [ -z "$IN_FILE" ]; then
-    IN_FILE="Literature Review.md"
+    IN_FILE="Case Study.md"
 fi
 
 OUT_FILE=$(mktemp)
