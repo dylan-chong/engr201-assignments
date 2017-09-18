@@ -107,17 +107,15 @@ example, the EternalBlue vulnerability only existed on older versions of
 Windows - i.e. not Microsoft's latest version of Windows, Windows 10 [5]. 
 
 There are a few disadvantages to installing the latest operating system.
-Firstly, there is potentially large amount of work required to update a large
-number of computers. Secondly, any existing, multiple-year-long contracts with
-Microsoft for using a specific operating system could inhibit upgrades. Lastly,
-application software that Wellington Hospital uses may not have been tested
-thoroughly on, or support, the newest operating systems.
+Firstly, there is potentially significant amount of work and time required to
+update a large number of computers - this would be problematic for a hospital
+that needs as computer systems to be constantly available for the hospital to
+run. Secondly, any existing, multiple-year-long contracts with Microsoft for
+using a specific operating system could inhibit upgrades. Lastly, application
+software that Wellington Hospital uses may not have been tested thoroughly on,
+or support, the newest operating systems.
 
 ## Educate Staff to Recognise Phishing Attacks
-
-- Making employees part of the security plan [15] **TODO NEXT**
-    - 'Customers should use vigilance when opening documents from untrusted or
-    unknown sources.' [17]
 
 Multiple sources recommend that staff should be careful when opening email
 attachments, especially when the email was sent from an unfamiliar or
@@ -146,12 +144,33 @@ can be found on Microsoft's website ([21]).
 
 ## Limit Administrator Account Permissions
 
-**TODO next**
+One of the reasons NotPetya can gain access to an entire network is through
+finding administrator account in an infected computer's memory - if the
+administrator account has access to the entire network, the entire network can
+be easily infected at once. If a compromised administrator account does
+not have full access to everything in the network, NotPetya will have only have
+limited access [13]. 
 
-- Use administrator credentials sparingly. Don’t use a flat network and tightly
-control administrator credentials. Also, elevate only when necessarily. [12]
-    - Admin accounts could have limited access - multiple accounts can be used
-    to still provide access to the entire system / network, however this way,
-    if one administrator account is compromised
+This method may only slow NotPetya down, potentially providing IT managers time
+to isolate the problem before it spreads to the entire network (only if the
+ransomware is discovered quickly). It may not provide any permanent protection.
 
 # Recommended Prevention Methods
+
+Regularly installing software updates appears to be the most important and
+effective method in protecting Wellington Hospital against ransomware attacks.
+It directly addresses vulnerabilities, and is not time-consuming.
+
+Installing the latest operating systems is not recommended, mainly because of
+the time required to install the latest operating systems, and therefore
+potential interruptions to work at the hospital.
+
+Educating staff to recognise phishing attacks is recommended because it could
+reduce the probability of an infection through malicious email attachments.
+This method does not protect against Software Supply Chain Attacks because
+software is not (usually) delivered by email to hospital staff directly.
+
+Limiting administrator account permissions is also a recommended method to
+protect Wellington Hospital because it reduces the probability that NotPetya
+will infect the entire network of part of it becomes infected. It will,
+however, not be as effective as regularly installing security updates.
