@@ -40,7 +40,7 @@ developed by the NSA [2]. This vulnerability exists in various versions of
 windows ranging from Windows XP to Windows Server 2008 R2 - it did not exist on
 later versions of Windows [5]. EternalBlue exploits a bug in the Server Message
 Block (SMB) protocol (a protocol for file sharing and remote Windows services)
-to install WannaCry on a remote computer \[13]\[14]. 
+to install WannaCry on a remote computer \[13]\[14].
 
 WannaCry may also take advantage of phishing emails (emails that trick the user
 into installing malicious software) although this has not been confirmed
@@ -118,7 +118,7 @@ computer that is available 100% of the time.
 
 Installing the latest versions of the operating systems can help as well, for
 example, the EternalBlue vulnerability only existed on older versions of
-Windows - i.e. not Microsoft's latest version of Windows, Windows 10 [5]. 
+Windows - i.e. not Microsoft's latest version of Windows, Windows 10 [5].
 
 There are a few disadvantages to installing the latest operating system.
 Firstly, there is potentially significant amount of work and time required to
@@ -165,7 +165,7 @@ finding administrator account in an infected computer's memory - if the
 administrator account has access to the entire network, the entire network can
 be easily infected at once. If a compromised administrator account does
 not have full access to everything on the network, NotPetya will have only have
-limited access [13]. 
+limited access [13].
 
 This method may only slow NotPetya down, potentially providing IT managers time
 to isolate the problem before it spreads to the entire network (only if the
@@ -213,51 +213,122 @@ however, not be as effective as regularly installing security updates.
 <!-- Unused sources are commented out. -->
 <!-- Used, shifted sources have their original number above them. -->
 
-[1] https://www.cert.govt.nz/businesses-and-individuals/recent-threats/alert-wannacry-ransomware-used-in-large-scale-international-attacks
 
-[2] https://www.theverge.com/2017/5/12/15630354/nhs-hospitals-ransomware-hack-wannacry-bitcoin
 
-[3] https://www.cert.govt.nz/it-specialists/advisories/advisory/new-petya-ransomware-threat
+[1]
+CertNZ.
+"WannaCry Ransomware used in large scale international attacks".
+Internet:
+https://www.cert.govt.nz/businesses-and-individuals/recent-threats/alert-wannacry-ransomware-used-in-large-scale-international-attacks,
+May. 15, 2017 [Sept. 11, 2017]
 
-[4] https://www.recode.net/2017/6/27/15881666/global-eu-cyber-attack-us-hackers-nsa-hospitals 
+[2]
+Russell Brandom.
+"UK hospitals hit with massive ransomware attack".
+Internet:
+https://www.theverge.com/2017/5/12/15630354/nhs-hospitals-ransomware-hack-wannacry-bitcoin
+May. 12, 2017 [Sept. 11, 2017]
 
-[5] http://thehackernews.com/2017/04/swift-banking-hacking-tool.html 
+[3]
+CertNZ.
+"New ransomware campaign known as NotPetya".
+Internet:
+https://www.cert.govt.nz/it-specialists/advisories/advisory/new-petya-ransomware-threat
+Jun. 28, 2017 [Sept. 11, 2017]
 
-[6] https://securitybrief.co.nz/story/locky-ransomwares-rebirth-puts-everyone-risk-once-again/
+[4]
+April Glaser.
+"U.S. hospitals have been hit by the global ransomware attack".
+Internet:
+https://www.recode.net/2017/6/27/15881666/global-eu-cyber-attack-us-hackers-nsa-hospitals
+Jun. 27, 2017 [Sept. 11, 2017]
+
+[5]
+Mohit Kumar
+"Latest Hacking Tools Leak Indicates NSA Was Targeting SWIFT Banking Network".
+Internet:
+http://thehackernews.com/2017/04/swift-banking-hacking-tool.html
+Apr. 14, 2017 [Sept. 11, 2017]
+
+[6]
+Sara Barker.
+"Locky ransomware's 'rebirth' puts everyone at risk once again".
+Internet:
+https://securitybrief.co.nz/story/locky-ransomwares-rebirth-puts-everyone-risk-once-again/
+Aug. 21, 2017 [Sept. 11, 2017]
 
 <!-- [7] https://www.bleepingcomputer.com/virus-removal/locky-ransomware-information-help  -->
 
 <!-- 21 -->
-[7]  https://blogs.technet.microsoft.com/filecab/2016/09/16/stop-using-smb1/ 
+[7]
+Ned Pyle.
+"Stop using SMB1".
+Internet:
+https://blogs.technet.microsoft.com/filecab/2016/09/16/stop-using-smb1/
+Sept. 16, 2016 [Sept. 11, 2017]
 
 <!-- [8] https://www.networkworld.com/article/3152449/security/use-virtual-containers-to-isolate-ransomware.html  -->
 
 <!-- 8 -->
-[8]  https://blogs.technet.microsoft.com/mmpc/2017/05/04/windows-defender-atp-thwarts-operation-wilysupply-software-supply-chain-cyberattack/ 
+[8]
+msft-mmpc.
+"Windows Defender ATP thwarts Operation WilySupply software supply chain cyberattack".
+Internet:
+https://blogs.technet.microsoft.com/mmpc/2017/05/04/windows-defender-atp-thwarts-operation-wilysupply-software-supply-chain-cyberattack/
+May. 4, 2017 [Sept. 11, 2017]
 
 <!-- [9] https://community.sophos.com/kb/en-us/120797  -->
 
 <!-- 19 -->
-[9] https://blogs.technet.microsoft.com/mmpc/2017/06/27/new-ransomware-old-techniques-petya-adds-worm-capabilities/ 
+[9]
+msft-mmpc.
+"New ransomware, old techniques: Petya adds worm capabilities".
+Internet:
+https://www.recode.net/2017/6/27/15881666/global-eu-cyber-attack-us-hackers-nsa-hospitals
+Jun. 27, 2017 [Sept. 11, 2017]
 
 <!-- [10] https://support.symantec.com/en_US/article.HOWTO124710.html  -->
 
 <!-- 18 -->
-[10] https://blogs.technet.microsoft.com/mmpc/2017/06/29/windows-10-platform-resilience-against-the-petya-ransomware-attack/ 
+[10]
+msft-mmpc.
+"Windows 10 platform resilience against the Petya ransomware attack".
+Internet:
+https://blogs.technet.microsoft.com/mmpc/2017/06/29/windows-10-platform-resilience-against-the-petya-ransomware-attack/
+Jun. 29, 2017 [Sept. 11, 2017]
 
 <!-- [11] https://blog.avira.com/locky-goes-offline/  -->
 
 <!-- 17 -->
-[11] https://blogs.technet.microsoft.com/msrc/2017/05/12/customer-guidance-for-wannacrypt-attacks/ 
+[11]
+MSRC Team.
+"Customer Guidance for WannaCrypt attacks".
+Internet:
+https://blogs.technet.microsoft.com/msrc/2017/05/12/customer-guidance-for-wannacrypt-attacks/
+May. 12, 2017 [Sept. 11, 2017]
 
 <!-- [12] https://www.theregister.co.uk/2017/06/28/petya_notpetya_ransomware/  -->
 
 <!-- 15 -->
-[12] https://www.pcisecuritystandards.org/documents/PCI_DSS_V1.0_Best_Practices_for_Implementing_Security_Awareness_Program.pdf
+[12]
+PCI Security Standards Council.
+"Information Supplement: Best Practices for Implementing a Security Awareness Program".
+Internet:
+https://www.pcisecuritystandards.org/documents/PCI_DSS_V1.0_Best_Practices_for_Implementing_Security_Awareness_Program.pdf
+Oct, 2014 [Sept. 11, 2017]
 
-[13] https://www.rapid7.com/db/modules/exploit/windows/smb/ms17_010_eternalblue 
+[13]
+Sean Dillon, et. al.
+"MS17-010 EternalBlue SMB Remote Windows Kernel Pool Corruption".
+Internet:
+https://www.rapid7.com/db/modules/exploit/windows/smb/ms17_010_eternalblue
+[Sept. 11, 2017]
 
-[14] https://www.fireeye.com/blog/threat-research/2017/05/smb-exploited-wannacry-use-of-eternalblue.html 
+[14]
+Ali Islam, et. al.
+"SMB Exploited: WannaCry Use of 'EternalBlue'".
+Internet:
+https://www.fireeye.com/blog/threat-research/2017/05/smb-exploited-wannacry-use-of-eternalblue.html
+May. 26, 2017 [Sept. 11, 2017]
 
 <!-- [16] https://www.forescout.com/wp-content/uploads/2017/05/Ransomware-ForeScout-Solution-Brief.pdf -->
-
