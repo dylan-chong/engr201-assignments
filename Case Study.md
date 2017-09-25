@@ -148,7 +148,8 @@ Both WannaCry and NotPetya exploit a vulnerability in the SMB v1 protocol to
 spread themselves to multiple computers \[13]\[14][18]. According to Microsoft
 [21], SMB v1 is almost 30 years old and was not designed to follow modern
 security standards. Later versions of SMB use several methods/protocols to make
-these versions of SMB much more secure [21].
+these versions of SMB much more secure [21]; Wellington Hospital should use a
+newer version of SMB if the protocol is being used.
 
 It is highly recommended that SMB v1 should be disabled to improve the security
 of Windows systems \[3][21]. Instructions on how to disable the protocol can be
@@ -196,7 +197,11 @@ staff directly.
 
 ## Disable the SMB v1 Protocol
 
-**TODO**
+Disabling the SMB v1 protocol is highly recommended \[3][21]. The protocol does
+not follow modern security standards, and there are later versions of the
+protocol that have improved security. This would remove the vulnerability used
+by both WannaCry and NotPetya \[13]\[14\[18]. Newer versions of SMB can be used
+instead as they have improved security features [21].
 
 ## Limit Administrator Account Permissions
 
