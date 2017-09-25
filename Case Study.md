@@ -1,5 +1,5 @@
 ---
-title: Randsomware Threat At Wellington Hospital
+title: Ransomware Threat at Wellington Hospital
 author:
     - Dylan Chong
 date: \today{}
@@ -11,56 +11,57 @@ linestretch: 1.5
 
 # Introduction
 
-Randsomware such as Wannacry, NotPetya, and Locky prevent access to computer
+Ransomware such as WannaCry, NotPetya, and Locky prevent access to computer
 files, often by encrypting the files, and demanding a payment to decrypt them.
 They often spread, automatically, affecting a large number of users.
 
 **TODO used callan feedback**
 
-Wannacry affected at least 45,000 computers, and was able to prevent work at
-least 16 hospitals in the United Kingdom this year since medical records could
+WannaCry affected at least 45,000 computers, and was able to prevent work at
+least 16 hospitals in the United Kingdom this year, since medical records could
 not be accessed [2]. NotPetya affected hospitals in the United States,
 postponing at least one surgery, and affecting the Merk drug company's computer
 network [4]. Several government agencies in the Ukraine were affected [4].
+Wellington Hospital could be one of these affected organisations in the future.
 
 This case study will discuss: the existence of the vulnerabilities used by
-Wannacry, NotPetya and Locky; how they aforementioned randsomware spread; and
-ways organisations like Wellington Hospital can protect itself against such
-attacks.
+WannaCry, NotPetya and Locky; how the aforementioned ransomware spread; and
+ways Wellington Hospital can protect itself against such attacks.
 
-# Analysis of Recent Randsomware
+# Analysis of Recent Ransomware
 
-**TODO introduce the section**
+## WannaCry
 
-## Wannacry
-
-Wannacry is an example of some recent ransomware -  it has affected at least
+WannaCry is an example of some recent ransomware -  it has affected at least
 45,000 computers and at least 16 hospitals in the UK alone, since its release
 earlier this year [1].
 
-Wannacry used a vulnerability called called 'EternalBlue', which may have been
+WannaCry used a vulnerability called called 'EternalBlue', which may have been
 developed by the NSA [2]. This vulnerability exists in various versions of
 windows ranging from Windows XP to Windows Server 2008 R2 - it did not exist on
 later versions of Windows [5]. EternalBlue exploits a bug in the Server Message
 Block (SMB) protocol (a protocol for file sharing and remote Windows services)
-to install Wannacry on a remote computer \[13]\[14]. 
+to install WannaCry on a remote computer \[13]\[14]. 
 
-Wannacry may also take advantage of phishing emails (emails that trick the user
+WannaCry may also take advantage of phishing emails (emails that trick the user
 into installing malicious software) although this has not been confirmed
 \[1][17].
 
-Wellington Hospital will be especially at risk from Wannacry if it uses a
+Wellington Hospital will be especially at risk from WannaCry if it uses a
 vulnerable Windows version, if the staff are not well aware of phishing emails
 and how to recognise them. If Wellington Hospital computers are connected to
 the Internet, then there is a much higher probability of the network being
-infected by Wannacry (in comparison to a network that is not connected to the
+infected by WannaCry (in comparison to a network that is not connected to the
 internet).
 
 ## NotPetya
 
-NotPetya is another example of recent ransomware. It not only encrypts files
-and demands a payment for decryption, but once the payment has been made,
-decryption is still possible because the required key is discarded [3].
+NotPetya is another example of recent ransomware. Like other ransomware, it
+encrypts files and demands a payment for decryption. However, once the payment
+has been made, decryption is still not possible because the required decryption
+key is not stored by NotPetya [3]. This makes NotPetya very dangerous to
+Wellington Hospital patients, as it will prevent critical operations that
+require the operation of hospital computers.
 
 NotPetya exploits bugs in the Windows management tools PSExec and WMI [3] and
 the previously mentioned EternalBlue [4] and SMB [18] vulnerabilities to
@@ -79,7 +80,7 @@ becomes infected with NotPetya when the software is downloaded/updated and run
 
 Wellington Hospital is especially at risk from NotPetya if it's systems use the
 aforementioned Windows management tools, and/or a Windows version that is
-vulnerable to EternalBlue (these are mentioned in the Wannacry section above).
+vulnerable to EternalBlue (these are mentioned in the WannaCry section above).
 
 ## Locky
 
@@ -92,8 +93,8 @@ vulnerable to EternalBlue (these are mentioned in the Wannacry section above).
 Regularly installing software updates is very important in protecting against
 ransomware, particularly with security updates for the operating systems
 \[3][5]. Microsoft was able to release a security update to protect vulnerable
-Windows operating systems against Wannacry, and another to find and remove
-the Wannacry ransomware [17].
+Windows operating systems against WannaCry, and another to find and remove
+the WannaCry ransomware [17].
 
 There are two advantages to this prevention method. Firstly, the updates
 address the vulnerability directly, rather than reduce the probability of
@@ -124,18 +125,18 @@ or support, the newest operating systems.
 Multiple sources recommend that staff should be careful when opening email
 attachments, especially when the email was sent from an unfamiliar or
 suspicious source \[15][17]. This is because ransomware, potentially including
-Wannacry \[1][17], can be introduced to a computer through phishing attacks
+WannaCry \[1][17], can be introduced to a computer through phishing attacks
 involving email attachments - opening the email attachments could cause the
-randsomware to be introduced. Making staff are aware of these types of emails
+ransomware to be introduced. Making staff are aware of these types of emails
 could reduce the probability of infection via email attachments.
 
 ## Disable the SMB v1 Protocol
 
-Both Wannacry and NotPetya exploit a vulnerability in the SMB v1 protocol to
-spread themselves to multiple computers \[13]\[14][18]. According to Microsoft,
-SMB v1 is almost 30 years old and was not designed to follow modern security
-standards. Later versions of SMB use several methods/protocols to make these
-versions of SMB much more secure [21].
+Both WannaCry and NotPetya exploit a vulnerability in the SMB v1 protocol to
+spread themselves to multiple computers \[13]\[14][18]. According to Microsoft
+[21], SMB v1 is almost 30 years old and was not designed to follow modern
+security standards. Later versions of SMB use several methods/protocols to make
+these versions of SMB much more secure [21].
 
 It is highly recommended that SMB v1 should be disabled to improve the security
 of Windows systems \[3][21]. Instructions on how to disable the protocol can be
@@ -152,7 +153,7 @@ One of the reasons NotPetya can gain access to an entire network is through
 finding administrator account in an infected computer's memory - if the
 administrator account has access to the entire network, the entire network can
 be easily infected at once. If a compromised administrator account does
-not have full access to everything in the network, NotPetya will have only have
+not have full access to everything on the network, NotPetya will have only have
 limited access [13]. 
 
 This method may only slow NotPetya down, potentially providing IT managers time
