@@ -85,7 +85,7 @@ vulnerable to EternalBlue (these are mentioned in the WannaCry section above).
 
 The Locky ransomware is introduced to a computer through malicious email
 attachments. Opening the attachment causes Locky to be installed and executing,
-encrypting files.
+encrypting files [6].
 
 Emails contain Locky (as of August 2017) can be identified by these
 characteristics [6]:
@@ -213,46 +213,45 @@ however, not be as effective as regularly installing security updates.
 <!-- Unused sources are commented out. -->
 <!-- Used, shifted sources have their original number above them. -->
 
-
-
 [1]
 CertNZ.
-"WannaCry Ransomware used in large scale international attacks".
+*"WannaCry Ransomware used in large scale international attacks".*
 Internet:
 https://www.cert.govt.nz/businesses-and-individuals/recent-threats/alert-wannacry-ransomware-used-in-large-scale-international-attacks,
 May. 15, 2017 [Sept. 11, 2017]
 
 [2]
 Russell Brandom.
-"UK hospitals hit with massive ransomware attack".
+*"UK hospitals hit with massive ransomware attack".*
 Internet:
 https://www.theverge.com/2017/5/12/15630354/nhs-hospitals-ransomware-hack-wannacry-bitcoin
 May. 12, 2017 [Sept. 11, 2017]
 
 [3]
 CertNZ.
-"New ransomware campaign known as NotPetya".
+*"New ransomware campaign known as NotPetya".*
 Internet:
 https://www.cert.govt.nz/it-specialists/advisories/advisory/new-petya-ransomware-threat
 Jun. 28, 2017 [Sept. 11, 2017]
 
 [4]
 April Glaser.
-"U.S. hospitals have been hit by the global ransomware attack".
+*"U.S. hospitals have been hit by the global ransomware attack".*
 Internet:
 https://www.recode.net/2017/6/27/15881666/global-eu-cyber-attack-us-hackers-nsa-hospitals
 Jun. 27, 2017 [Sept. 11, 2017]
 
 [5]
 Mohit Kumar
-"Latest Hacking Tools Leak Indicates NSA Was Targeting SWIFT Banking Network".
+*"Latest Hacking Tools Leak Indicates NSA Was Targeting SWIFT Banking
+Network".*
 Internet:
 http://thehackernews.com/2017/04/swift-banking-hacking-tool.html
 Apr. 14, 2017 [Sept. 11, 2017]
 
 [6]
 Sara Barker.
-"Locky ransomware's 'rebirth' puts everyone at risk once again".
+*"Locky ransomware's 'rebirth' puts everyone at risk once again".*
 Internet:
 https://securitybrief.co.nz/story/locky-ransomwares-rebirth-puts-everyone-risk-once-again/
 Aug. 21, 2017 [Sept. 11, 2017]
@@ -262,7 +261,7 @@ Aug. 21, 2017 [Sept. 11, 2017]
 <!-- 21 -->
 [7]
 Ned Pyle.
-"Stop using SMB1".
+*"Stop using SMB1".*
 Internet:
 https://blogs.technet.microsoft.com/filecab/2016/09/16/stop-using-smb1/
 Sept. 16, 2016 [Sept. 11, 2017]
@@ -272,7 +271,7 @@ Sept. 16, 2016 [Sept. 11, 2017]
 <!-- 8 -->
 [8]
 msft-mmpc.
-"Windows Defender ATP thwarts Operation WilySupply software supply chain cyberattack".
+*"Windows Defender ATP thwarts Operation WilySupply software supply chain cyberattack".*
 Internet:
 https://blogs.technet.microsoft.com/mmpc/2017/05/04/windows-defender-atp-thwarts-operation-wilysupply-software-supply-chain-cyberattack/
 May. 4, 2017 [Sept. 11, 2017]
@@ -282,7 +281,7 @@ May. 4, 2017 [Sept. 11, 2017]
 <!-- 19 -->
 [9]
 msft-mmpc.
-"New ransomware, old techniques: Petya adds worm capabilities".
+*"New ransomware, old techniques: Petya adds worm capabilities".*
 Internet:
 https://www.recode.net/2017/6/27/15881666/global-eu-cyber-attack-us-hackers-nsa-hospitals
 Jun. 27, 2017 [Sept. 11, 2017]
@@ -292,7 +291,7 @@ Jun. 27, 2017 [Sept. 11, 2017]
 <!-- 18 -->
 [10]
 msft-mmpc.
-"Windows 10 platform resilience against the Petya ransomware attack".
+*"Windows 10 platform resilience against the Petya ransomware attack".*
 Internet:
 https://blogs.technet.microsoft.com/mmpc/2017/06/29/windows-10-platform-resilience-against-the-petya-ransomware-attack/
 Jun. 29, 2017 [Sept. 11, 2017]
@@ -302,9 +301,10 @@ Jun. 29, 2017 [Sept. 11, 2017]
 <!-- 17 -->
 [11]
 MSRC Team.
-"Customer Guidance for WannaCrypt attacks".
+*"Customer Guidance for WannaCrypt attacks".*
 Internet:
-https://blogs.technet.microsoft.com/msrc/2017/05/12/customer-guidance-for-wannacrypt-attacks/
+https://blogs.technet.microsoft
+.com/msrc/2017/05/12/customer-guidance-for-wannacrypt-attacks/
 May. 12, 2017 [Sept. 11, 2017]
 
 <!-- [12] https://www.theregister.co.uk/2017/06/28/petya_notpetya_ransomware/  -->
@@ -312,21 +312,22 @@ May. 12, 2017 [Sept. 11, 2017]
 <!-- 15 -->
 [12]
 PCI Security Standards Council.
-"Information Supplement: Best Practices for Implementing a Security Awareness Program".
+*"Information Supplement: Best Practices for Implementing a Security Awareness Program".*
 Internet:
-https://www.pcisecuritystandards.org/documents/PCI_DSS_V1.0_Best_Practices_for_Implementing_Security_Awareness_Program.pdf
+https://www.pcisecuritystandards.org/documents/
+PCI_DSS_V1.0_Best_Practices_for_Implementing_Security_Awareness_Program.pdf
 Oct, 2014 [Sept. 11, 2017]
 
 [13]
 Sean Dillon, et. al.
-"MS17-010 EternalBlue SMB Remote Windows Kernel Pool Corruption".
+*"MS17-010 EternalBlue SMB Remote Windows Kernel Pool Corruption".*
 Internet:
 https://www.rapid7.com/db/modules/exploit/windows/smb/ms17_010_eternalblue
 [Sept. 11, 2017]
 
 [14]
 Ali Islam, et. al.
-"SMB Exploited: WannaCry Use of 'EternalBlue'".
+*"SMB Exploited: WannaCry Use of 'EternalBlue'".*
 Internet:
 https://www.fireeye.com/blog/threat-research/2017/05/smb-exploited-wannacry-use-of-eternalblue.html
 May. 26, 2017 [Sept. 11, 2017]
