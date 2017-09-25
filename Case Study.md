@@ -15,8 +15,6 @@ Ransomware such as WannaCry, NotPetya, and Locky prevent access to computer
 files, often by encrypting the files, and demanding a payment to decrypt them.
 They often spread, automatically, affecting a large number of users.
 
-**TODO used callan feedback**
-
 WannaCry affected at least 45,000 computers, and was able to prevent work at
 least 16 hospitals in the United Kingdom this year, since medical records could
 not be accessed [2]. NotPetya affected hospitals in the United States,
@@ -46,7 +44,7 @@ to install WannaCry on a remote computer \[13]\[14].
 
 WannaCry may also take advantage of phishing emails (emails that trick the user
 into installing malicious software) although this has not been confirmed
-\[1][17].
+\[1][11].
 
 Wellington Hospital will be especially at risk from WannaCry if it uses a
 vulnerable Windows version, if the staff are not well aware of phishing emails
@@ -65,7 +63,7 @@ Wellington Hospital patients, as it will prevent critical operations that
 require the operation of hospital computers.
 
 NotPetya exploits bugs in the Windows management tools PSExec and WMI [3] and
-the previously mentioned EternalBlue [4] and SMB [18] vulnerabilities to
+the previously mentioned EternalBlue [4] and SMB [10] vulnerabilities to
 install NotPetya on remote computers. NotPetya also searches for administrator
 credentials and the computers memory, and use them to access and infect other
 computers on the network. This technique can be very effective because many
@@ -74,10 +72,10 @@ machines on the network. Once the administrator credentials have been
 retrieved, they can be used to infect the entire network with NotPetya [13].
 
 NotPetya has also used a Software Supply Chain Attack to infect computers in
-the Ukraine [19]. This type of attack involves compromising a third-party
+the Ukraine [9]. This type of attack involves compromising a third-party
 software supplier of the target organisation, so the target organisation
 becomes infected with NotPetya when the software is downloaded/updated and run
-[20].
+[8].
 
 Wellington Hospital is especially at risk from NotPetya if it's systems use the
 aforementioned Windows management tools, and/or a Windows version that is
@@ -105,7 +103,7 @@ Regularly installing software updates is very important in protecting against
 ransomware, particularly with security updates for the operating systems
 \[3][5]. Microsoft was able to release a security update to protect vulnerable
 Windows operating systems against WannaCry, and another to find and remove
-the WannaCry ransomware [17].
+the WannaCry ransomware [11].
 
 There are two advantages to this prevention method. Firstly, the updates
 address the vulnerability directly, rather than reduce the probability of
@@ -135,8 +133,8 @@ or support, the newest operating systems.
 
 Multiple sources recommend that staff should be careful when opening email
 attachments, especially when the email was sent from an unfamiliar or
-suspicious source \[15][17]. This is because ransomware such as Locky [6], and
-potentially including WannaCry \[1][17], can be introduced to a computer
+suspicious source \[12][11]. This is because ransomware such as Locky [6], and
+potentially including WannaCry \[1][11], can be introduced to a computer
 through phishing attacks involving email attachments - opening the email
 attachments could cause the ransomware to be installed. Making staff are aware
 of these types of emails will likely reduce the probability of infections via
@@ -145,20 +143,20 @@ email attachments.
 ## Disable the SMB v1 Protocol
 
 Both WannaCry and NotPetya exploit a vulnerability in the SMB v1 protocol to
-spread themselves to multiple computers \[13]\[14][18]. According to Microsoft
-[21], SMB v1 is almost 30 years old and was not designed to follow modern
+spread themselves to multiple computers \[13]\[14][10]. According to Microsoft
+[7], SMB v1 is almost 30 years old and was not designed to follow modern
 security standards. Later versions of SMB use several methods/protocols to make
-these versions of SMB much more secure [21]; Wellington Hospital should use a
+these versions of SMB much more secure [7]; Wellington Hospital should use a
 newer version of SMB if the protocol is being used.
 
 It is highly recommended that SMB v1 should be disabled to improve the security
-of Windows systems \[3][21]. Instructions on how to disable the protocol can be
-found on Microsoft's website ([21]).
+of Windows systems \[3][7]. Instructions on how to disable the protocol can be
+found on Microsoft's website ([7]).
 
 SMB v1 can be avoided by most organisations. If Wellington Hospital still uses
 Windows XP or Windows Server 2003, uses old management software, or old
-multifunction printers, then SMB v1 may still be required [21]. More details
-can be found on Microsoft's website ([21]).
+multifunction printers, then SMB v1 may still be required [7]. More details
+can be found on Microsoft's website ([7]).
 
 ## Limit Administrator Account Permissions
 
@@ -197,11 +195,11 @@ staff directly.
 
 ## Disable the SMB v1 Protocol
 
-Disabling the SMB v1 protocol is highly recommended \[3][21]. The protocol does
+Disabling the SMB v1 protocol is highly recommended \[3][7]. The protocol does
 not follow modern security standards, and there are later versions of the
 protocol that have improved security. This would remove the vulnerability used
-by both WannaCry and NotPetya \[13]\[14\[18]. Newer versions of SMB can be used
-instead as they have improved security features [21].
+by both WannaCry and NotPetya \[13]\[14\[10]. Newer versions of SMB can be used
+instead as they have improved security features [7].
 
 ## Limit Administrator Account Permissions
 
@@ -209,3 +207,57 @@ Limiting administrator account permissions is also a recommended method to
 protect Wellington Hospital because it reduces the probability that NotPetya
 will infect the entire network of part of it becomes infected. It will,
 however, not be as effective as regularly installing security updates.
+
+# Bibliography
+
+<!-- Unused sources are commented out. -->
+<!-- Used, shifted sources have their original number above them. -->
+
+[1] https://www.cert.govt.nz/businesses-and-individuals/recent-threats/alert-wannacry-ransomware-used-in-large-scale-international-attacks
+
+[2] https://www.theverge.com/2017/5/12/15630354/nhs-hospitals-ransomware-hack-wannacry-bitcoin
+
+[3] https://www.cert.govt.nz/it-specialists/advisories/advisory/new-petya-ransomware-threat
+
+[4] https://www.recode.net/2017/6/27/15881666/global-eu-cyber-attack-us-hackers-nsa-hospitals 
+
+[5] http://thehackernews.com/2017/04/swift-banking-hacking-tool.html 
+
+[6] https://securitybrief.co.nz/story/locky-ransomwares-rebirth-puts-everyone-risk-once-again/
+
+<!-- [7] https://www.bleepingcomputer.com/virus-removal/locky-ransomware-information-help  -->
+
+<!-- 21 -->
+[7]  https://blogs.technet.microsoft.com/filecab/2016/09/16/stop-using-smb1/ 
+
+<!-- [8] https://www.networkworld.com/article/3152449/security/use-virtual-containers-to-isolate-ransomware.html  -->
+
+<!-- 8 -->
+[8]  https://blogs.technet.microsoft.com/mmpc/2017/05/04/windows-defender-atp-thwarts-operation-wilysupply-software-supply-chain-cyberattack/ 
+
+<!-- [9] https://community.sophos.com/kb/en-us/120797  -->
+
+<!-- 19 -->
+[9] https://blogs.technet.microsoft.com/mmpc/2017/06/27/new-ransomware-old-techniques-petya-adds-worm-capabilities/ 
+
+<!-- [10] https://support.symantec.com/en_US/article.HOWTO124710.html  -->
+
+<!-- 18 -->
+[10] https://blogs.technet.microsoft.com/mmpc/2017/06/29/windows-10-platform-resilience-against-the-petya-ransomware-attack/ 
+
+<!-- [11] https://blog.avira.com/locky-goes-offline/  -->
+
+<!-- 17 -->
+[11] https://blogs.technet.microsoft.com/msrc/2017/05/12/customer-guidance-for-wannacrypt-attacks/ 
+
+<!-- [12] https://www.theregister.co.uk/2017/06/28/petya_notpetya_ransomware/  -->
+
+<!-- 15 -->
+[12] https://www.pcisecuritystandards.org/documents/PCI_DSS_V1.0_Best_Practices_for_Implementing_Security_Awareness_Program.pdf
+
+[13] https://www.rapid7.com/db/modules/exploit/windows/smb/ms17_010_eternalblue 
+
+[14] https://www.fireeye.com/blog/threat-research/2017/05/smb-exploited-wannacry-use-of-eternalblue.html 
+
+<!-- [16] https://www.forescout.com/wp-content/uploads/2017/05/Ransomware-ForeScout-Solution-Brief.pdf -->
+
