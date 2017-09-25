@@ -10,7 +10,6 @@ mv "$OUT_FILE" "$OUT_FILE.pdf"
 OUT_FILE="$OUT_FILE.pdf"
 
 pandoc "$IN_FILE" -o "$OUT_FILE" \
-    --variable="linestretch=1.5" \
     --variable="margin-left=2cm" \
     --variable="margin-right=2cm" \
     --variable="margin-top=2cm" \

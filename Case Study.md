@@ -24,9 +24,10 @@ postponing at least one surgery, and affecting the Merk drug company's computer
 network [4]. Several government agencies in the Ukraine were affected [4].
 Wellington Hospital could be one of these affected organisations in the future.
 
-This case study will discuss: the existence of the vulnerabilities used by
-WannaCry, NotPetya and Locky; how the aforementioned ransomware spread; and
-ways Wellington Hospital can protect itself against such attacks.
+As asked by Wellington Hospital, this case study will discuss: the existence of
+the vulnerabilities used by WannaCry, NotPetya and Locky; how the
+aforementioned ransomware spread; and ways Wellington Hospital can protect
+itself against such attacks.
 
 # Analysis of Recent Ransomware
 
@@ -84,7 +85,17 @@ vulnerable to EternalBlue (these are mentioned in the WannaCry section above).
 
 ## Locky
 
-**TODO once the others have done more research**
+The Locky ransomware is introduced to a computer through malicious email
+attachments. Opening the attachment causes Locky to be installed and executing,
+encrypting files.
+
+Emails contain Locky (as of August 2017) can be identified by these
+characteristics [6]:
+
+- the email was sent from an unknown source,
+- the email has an (almost) empty email body,
+- and the email has an attachment called 'E 2017-08-09 (580)' (or something
+similar) [6].
 
 # Available Prevention Methods
 
@@ -124,11 +135,12 @@ or support, the newest operating systems.
 
 Multiple sources recommend that staff should be careful when opening email
 attachments, especially when the email was sent from an unfamiliar or
-suspicious source \[15][17]. This is because ransomware, potentially including
-WannaCry \[1][17], can be introduced to a computer through phishing attacks
-involving email attachments - opening the email attachments could cause the
-ransomware to be introduced. Making staff are aware of these types of emails
-could reduce the probability of infection via email attachments.
+suspicious source \[15][17]. This is because ransomware such as Locky [6], and
+potentially including WannaCry \[1][17], can be introduced to a computer
+through phishing attacks involving email attachments - opening the email
+attachments could cause the ransomware to be installed. Making staff are aware
+of these types of emails will likely reduce the probability of infections via
+email attachments.
 
 ## Disable the SMB v1 Protocol
 
@@ -162,18 +174,31 @@ ransomware is discovered quickly). It may not provide any permanent protection.
 
 # Recommended Prevention Methods
 
+## Regularly Install Software Updates
+
 Regularly installing software updates appears to be the most important and
 effective method in protecting Wellington Hospital against ransomware attacks.
 It directly addresses vulnerabilities, and is not time-consuming.
+
+## Install the Latest Operating System
 
 Installing the latest operating systems is not recommended, mainly because of
 the time required to install the latest operating systems, and therefore
 potential interruptions to work at the hospital.
 
+## Educate Staff to Recognise Phishing Attacks
+
 Educating staff to recognise phishing attacks is recommended because it could
-reduce the probability of an infection through malicious email attachments.
-This method does not protect against Software Supply Chain Attacks because
-software is not (usually) delivered by email to hospital staff directly.
+reduce the probability of an infection through malicious email attachments,
+especially from Locky. This method does not protect against Software Supply
+Chain Attacks because software is not (usually) delivered by email to hospital
+staff directly.
+
+## Disable the SMB v1 Protocol
+
+**TODO**
+
+## Limit Administrator Account Permissions
 
 Limiting administrator account permissions is also a recommended method to
 protect Wellington Hospital because it reduces the probability that NotPetya
