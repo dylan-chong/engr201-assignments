@@ -3,6 +3,10 @@ title: Randsomware Threat At Wellington Hospital
 author:
     - Dylan Chong
 date: \today{}
+fontsize: 12pt
+documentclass: extreport
+linestretch: 1.5
+
 ---
 
 # Introduction
