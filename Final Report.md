@@ -12,7 +12,11 @@ margin-top: 2.5cm
 margin-bottom: 2.5cm
 toc: true
 toc-depth: 4
+csl: ieee.csl
+bibliography: Final Report Bibliography.bib
 ---
+
+TODO move bibliographystyle into global somewhere
 
 # Introduction
 
@@ -56,13 +60,13 @@ could help to reduce these.
 #### - Motivations for Fake News
 
 The main motivation for the creation and spread of fake news is the advertising
-revenue on fake news websites [8]. This is malicious because the goal of
-maximising revenue is not aligned with the goal of choosing an effective
-party/candidate.
+revenue on fake news websites (@fakeNewsStudy). This is malicious because the
+goal of maximising revenue is not aligned with the goal of choosing an
+effective party/candidate.
 
 Fake news around the time of the 2016 US Presidential Election was heavily in
-favour of Trump [8]. The fact that the Republicans/Trump won the election
-raises the concern that fake news affected the election.
+favour of Trump (@fakeNewsStudy). The fact that the Republicans/Trump won the
+election raises the concern that fake news affected the election.
 
 Both financial and political motivations for fake news are malicious because a
 party can be elected for false reasons, not for their true ability to run a
@@ -74,17 +78,17 @@ about who to vote for in an election.
 
 Considering that some fake news articles were more popular than mainstream news
 articles on Facebook, it is clear that fake news affects a significant number
-of people on social media [8]. Without some method to prevent the fake news
-from spreading, such as censorship, fake news will likely continue to be
-exploited for political and financial motivations.
+of people on social media (@fakeNewsStudy). Without some method to prevent the
+fake news from spreading, such as censorship, fake news will likely continue to
+be exploited for political and financial motivations.
 
 Assuming that a large enough number of fake articles can be accurately
 identified, social media companies could remove all posts containing a link to
-the fake articles. Given the popularity of the fake articles on Facebook [8],
-this form of censorship would certainly slow the spread. This would reduce the
-advertising revenue gained from fake news, therefore reducing financial
-motivations. It would also likely reduce the effectiveness in terms of boosting
-the popularity of a party/candidate.
+the fake articles. Given the popularity of the fake articles on Facebook
+(@fakeNewsStudy), this form of censorship would certainly slow the spread. This
+would reduce the advertising revenue gained from fake news, therefore reducing
+financial motivations. It would also likely reduce the effectiveness in terms
+of boosting the popularity of a party/candidate.
 
 ### Prevention of Hateful Behaviour
 
@@ -98,7 +102,7 @@ spreading and causing these threats to be sent.
 
 ## Cons of Censorship
 
-Although there are benefits to censorship there are two main reasons why
+Although there are benefits to censorship, there are two main reasons why
 censorship may not be a good idea. Firstly, there is a great potential for bias
 in a process that decides what news is visible to the public. Secondly, it
 *may* not be financially viable for social media companies to cooperate with
@@ -106,20 +110,46 @@ the censorship.
 
 ### Potential for Biased or Corrupted Censorship
 
-*TODO After*
-<!--
-- Potential for bias
-    - Mention facebook fact checking bias
-    - Mention china
-    - bribe from fake news sources
--->
+The potential for bias and corruption is both a short and long-term concern
+about fake news censorship on social media. A bias in Facebook's fact checking
+system, the corrupt censorship system in China, and the potential for future
+biases will be discussed.
+
+#### - Facebook's Fact Checking System Bias
+
+In response to the fake news problem during the 2016 US Presidential Election,
+Facebook created a fact checking system. Facebook users can request an article
+to be checked by independent organisations such as Politifact. If the fact
+checking organisation(s) determine that the article is fake, a 'disputed' space
+warning is displayed on the article for everyone to see [9], [10].
+
+Facebook has recently been accused of only using left-leaning fact checkers
+[9]. This shows that it is quite easy for a single organisation to create a
+bias, whether it is accidental or not.
+
+If the fact checking system had been a censorship system instead, this bias
+could have had notable implications. A censorship system would have greater
+implications than a fact-checking system because it involves choosing what
+information people will be able to see. The system could be exploited to affect
+people's beliefs, e.g. sway some right-wing citizens to become more left-wing.
+
+#### - Corrupt Censorship System in China
+
+#### - Potential For Future Biases
+
+**TODO NExt mention bribes from fake news sources**
+**TODO AFTER figure out how to do references**
 
 ### Financial Effect of Censorship on Social Media Companies
-*TODO change to why effective censorship is not practical
+
+*TODO change to why effective censorship requires filtering through too much
+data
 (
+- too much data to censor, especially if you include personal posts
 - personal posts tweets must be censored - censoring them would be/heads towards
 an invasion of free speech.
-- too much data to censor, especially if you include personal posts
+
+Separate point:
 - fake news spreads too fast (TODO needs research) for the information to be
 researched thoroughly to determine censorship
     - takes weeks to research
@@ -127,15 +157,6 @@ researched thoroughly to determine censorship
 TODO if i go through with this then change the introduction and introduction to
 analysis/cons section
 end*
-
-<!--
-- Social media companies are not likely to cooperate with censorship because it
-reduces advertising revenue.
-    - fact checking also costs money
-        - especially for accuracy, and multiple fact checkers
-    - Impractical to accurately censor only fake news on internet (too much to
-    filter)
--->
 
 ## Why Fake News is so Popular
 
@@ -159,15 +180,6 @@ corruption*
 - Maybe mention the facts checking system has promise
 -->
 
+bla [@fakeNewsStudy]
+
 # References
-
-*TODO use the generated references
-https://gist.github.com/maxogden/97190db73ac19fc6c1d9beee1a6e4fc8
-read*
-
-<!--
-Other points
-- Social media censorship does not prevent all fake news from propagating on
-the internet
-- Fake news is not completely inhibited on the internet - too much freedom
--->
