@@ -110,8 +110,7 @@ system.
 
 The potential for bias and corruption is both a short and long-term concern
 about fake news censorship on social media. A bias in Facebook's fact checking
-system, the corrupt censorship system in China, and the potential for future
-biases will be discussed.
+system and the potential for future biases will be discussed.
 
 #### - Facebook's Fact Checking System Bias
 
@@ -132,17 +131,13 @@ implications than a fact-checking system because it involves choosing what
 information people will be able to see. The system could be exploited to affect
 people's beliefs, e.g. sway some right-wing citizens to become more left-wing.
 
-#### - Corrupt Censorship System in China
-
-**TODO after mention bribes from fake news sources**
-
 #### - Potential For Future Biases
 
 Suppose that a fake news censorship system is in effect on some popular social
 media platform. As described in an above section, the advertising revenue of
 fake new sources should now be reduced. Fake news sources would be incentivised
 to find ways of increasing revenue. Governments could also try to influence a
-system for the purposes of exercising control over the population..
+system for the purposes of exercising control over the population.
 
 One way for a fake news source to do this would be to interfere with the
 censorship process. They could bribe one or more fact checking organisations or
@@ -196,20 +191,15 @@ on the user's feed, feeding cycle [@nprWhy].
 
 # Recommendations
 
-*TODO*
+This articles takes a stance against fake new censorship on social media. The
+possibility of corruption and the impracticality are the two strongest points
+to consider.
 
-## Education as an Alternative Solution
-
-*TODO censorship is not recommended primarily because of the possibility of
-corruption*
-*TODO education is the recommended solution*
-
-<!--
-- Education is a better long-term solution to the fake news problem
-
-    - Mention how this avoids the bias problem
-    - addresses the jo cos murder (hateful)
-- Maybe mention the facts checking system has promise
--->
+Education is a better long-term solution to the big news problem. Education
+should increase people's ability to identify fake news - they can reason about
+whether the news can logically be accurate, and if it is motivated
+politically/financially [@fakeNewStudy]. The education should also allow people
+to recognise the emotional reactions that the fake news exploits. All of these
+benefits should reduce the effectiveness of fake news in the long run.
 
 # References
