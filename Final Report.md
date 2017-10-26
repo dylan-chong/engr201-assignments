@@ -18,22 +18,25 @@ bibliography: Final Report Bibliography.bib
 
 # Introduction
 
-*TODO Mention election influence, large amount of pro-trump fake news
-https://www.google.co.nz/search?client=safari&rls=en&q=las+vegas+shooting+fake+news&ie=UTF-8&oe=UTF-8&gfe_rd=cr&dcr=0&ei=CHntWfmdIKLM8gem2ZDACA
-read above*
+Around the time of the 2016 US Presidential Election, at least 150 fake news
+articles flourished, spreading on social media websites [@fakeNewsStudy]. Given
+that these fake articles largely supported Trump [@fakeNewsStudy], and that
+Trump won the election, concerns about the influence of fake news are well
+founded.
 
 Since social media is a popular medium for sharing fake news [@fakeNewsStudy],
 censoring fake news may appear be the the most obvious way to prevent the above
 issue. However, as this article discusses, censorship of fake news on social
-media is not a desirable solution.
+media is not a reasoable solution.
 
-This report discusses pros and cons of censoring fake news, while taking a
-stance against censorship. The reasons for the quick spread of fake news are
-also discussed. These lead to reasons why education about fake news is the
-recommended, long-term solution to this fake news problem.
+This report discusses pros and cons of censorship as a solution to the fake
+news problem. The reasons for the quick spread of fake news are also discussed.
+These lead to reasons why education about fake news is the recommended,
+long-term solution to this fake news problem.
 
 This report is intended to inform governments, social media companies, and
-members of the public who are interested in solving the fake news problem.
+members of the public who are interested in discussing solutions to the fake
+news problem.
 
 *Note: Any uses of the term 'censorship' from this point forward refers to the
 censorship of fake news on social media, unless specified otherwise.*
@@ -58,12 +61,12 @@ could help to reduce these.
 #### - Motivations for Fake News
 
 The main motivation for the creation and spread of fake news is the advertising
-revenue on fake news websites (@fakeNewsStudy). This is malicious because the
+revenue on fake news websites [@fakeNewsStudy]. This is malicious because the
 goal of maximising revenue is not aligned with the goal of choosing an
 effective party/candidate.
 
 Fake news around the time of the 2016 US Presidential Election was heavily in
-favour of Trump (@fakeNewsStudy). The fact that the Republicans/Trump won the
+favour of Trump [@fakeNewsStudy]. The fact that the Republicans/Trump won the
 election raises the concern that fake news affected the election.
 
 Both financial and political motivations for fake news are malicious because a
@@ -76,7 +79,7 @@ about who to vote for in an election.
 
 Considering that some fake news articles were more popular than mainstream news
 articles on Facebook, it is clear that fake news affects a significant number
-of people on social media (@fakeNewsStudy). Without some method to prevent the
+of people on social media [@fakeNewsStudy]. Without some method to prevent the
 fake news from spreading, such as censorship, fake news will likely continue to
 be exploited for political and financial motivations.
 
@@ -92,11 +95,12 @@ of boosting the popularity of a party/candidate.
 
 Fake news can incite hateful thinking or behaviour. For example, the Las Vegas
 shooting in October 2017 led to fake news to be spread about the shooting
-\[12], \[13]. Among the fake news, there were false accusations that Geary
-Danley was the killer [13]. The Gateway Pundit, a blog, labelled Mr. Danley "a
-far left loon" [12]. These led to death threats being sent to the family
-of Mr. Danley [13]. Censorship may have been able to prevent the fake news from
-spreading and causing these hateful threats to be sent.
+[@nytimesShooting], [@wregDeathThreats]. Among the fake news, there were false
+accusations that Geary Danley was the killer [@wregDeathThreats]. The Gateway
+Pundit, a blog, labelled Mr. Danley "a far left loon" [@nytimesShooting]. These
+led to death threats being sent to the family of Mr. Danley
+[@wregDeathThreats]. Censorship may have been able to prevent the fake news
+from spreading and causing these hateful threats to be sent.
 
 ## Cons of Censorship
 
@@ -119,7 +123,7 @@ Facebook created a fact checking system. Facebook users can request an article
 to be checked by independent organisations such as Politifact. If the fact
 checking organisation(s) determine that the article is fake, a 'disputed' space
 warning is displayed on the article for everyone to see
-[@facebookAddRightWing@facebookAddRightWing], [10].
+[@facebookAddRightWing@facebookAddRightWing], [@qzFacebookFactCheck].
 
 Facebook has recently been accused of only using left-leaning fact checkers
 [@facebookAddRightWing]. This shows that it is quite easy for a single
@@ -146,8 +150,7 @@ this would work on at least one fact checking organisation, the audience of
 their articles would be increased, along with advertising revenue.
 
 If the censorship system were to be introduced, there would be a large risk of
-at least one organisation being compromised would be prone to this kind of
-influence.
+at least one organisation being compromised.
 
 ### Impracticality of Censorship on Social Media
 
@@ -172,7 +175,7 @@ effective.
 
 A study performed after the US 2016 Presidential Election catalogued over 150
 fake news articles [@fakeNewsStudy]. This only includes articles that were
-confirmed to be fake [@fakeNewStudy]; there was likely more faked articles
+confirmed to be fake [@fakeNewsStudy]; there was likely more fake articles
 around the time the study was conducted. Given the time it takes for a single
 article to be fact checked, this adds to the problem of fact checking been far
 too slow.
@@ -198,8 +201,8 @@ to consider.
 Education is a better long-term solution to the big news problem. Education
 should increase people's ability to identify fake news - they can reason about
 whether the news can logically be accurate, and if it is motivated
-politically/financially [@fakeNewStudy]. The education should also allow people
-to recognise the emotional reactions that the fake news exploits. All of these
-benefits should reduce the effectiveness of fake news in the long run.
+politically/financially [@fakeNewsStudy]. The education should also allow
+people to recognise the emotional reactions that the fake news exploits. All of
+these benefits should reduce the effectiveness of fake news in the long run.
 
 # References
