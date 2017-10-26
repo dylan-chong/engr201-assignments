@@ -21,13 +21,13 @@ bibliography: Final Report Bibliography.bib
 Around the time of the 2016 US Presidential Election, at least 150 fake news
 articles flourished, spreading on social media websites [@fakeNewsStudy]. Given
 that these fake articles largely supported Trump [@fakeNewsStudy], and that
-Trump won the election, concerns about the influence of fake news are well
-founded.
+Trump won the election, any concerns people have about the influence of fake
+news are well founded.
 
 Since social media is a popular medium for sharing fake news [@fakeNewsStudy],
 censoring fake news may appear be the the most obvious way to prevent the above
 issue. However, as this article discusses, censorship of fake news on social
-media is not a reasoable solution.
+media is not a reasonable solution.
 
 This report discusses pros and cons of censorship as a solution to the fake
 news problem. The reasons for the quick spread of fake news are also discussed.
@@ -71,9 +71,9 @@ election raises the concern that fake news affected the election.
 
 Both financial and political motivations for fake news are malicious because a
 party can be elected for false reasons, not for their true ability to run a
-country. True information about a party can easily be discredite by the false
-information. This makes it harder for citizens to make and accurate decision
-about who to vote for in an election.
+country. True information about a party can easily be discredited by creating
+new false information. This makes it harder for citizens to make and accurate
+decision about who to vote for in an election.
 
 #### - How Censorship Could Help
 
@@ -106,9 +106,8 @@ from spreading and causing these hateful threats to be sent.
 
 Although there are benefits to censorship, there are two main reasons why
 censorship may not be a good idea. Firstly, there is a great potential for bias
-in a process that decides what news is visible to the public. Secondly, it
-may be impractical to create and maintain an effective fake new censorship
-system.
+in a process that decides what news is visible to the public. Secondly, it may
+be impractical to create and maintain an effective fake news censorship system.
 
 ### Potential for Biased or Corrupted Censorship
 
