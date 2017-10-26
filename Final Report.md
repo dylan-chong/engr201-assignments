@@ -16,34 +16,32 @@ csl: ieee.csl
 bibliography: Final Report Bibliography.bib
 ---
 
-TODO move bibliographystyle into global somewhere
-
 # Introduction
 
 *TODO Mention election influence, large amount of pro-trump fake news
 https://www.google.co.nz/search?client=safari&rls=en&q=las+vegas+shooting+fake+news&ie=UTF-8&oe=UTF-8&gfe_rd=cr&dcr=0&ei=CHntWfmdIKLM8gem2ZDACA
 read above*
 
-Since social media is a popular medium for sharing fake news *TODO needs
-source*[], censoring fake news may appear be the the most obvious way to
-prevent the above issue. However, as this article discusses, censorship of fake
-news on social media is not a the most desirable solution.
+Since social media is a popular medium for sharing fake news [@fakeNewsStudy],
+censoring fake news may appear be the the most obvious way to prevent the above
+issue. However, as this article discusses, censorship of fake news on social
+media is not a desirable solution.
 
 This report discusses pros and cons of censoring fake news, while taking a
-stance against censorship. The reasons for fake news popularity are also
-discussed. These lead to reasons why education about fake news is the
+stance against censorship. The reasons for the quick spread of fake news are
+also discussed. These lead to reasons why education about fake news is the
 recommended, long-term solution to this fake news problem.
 
 This report is intended to inform governments, social media companies, and
 members of the public who are interested in solving the fake news problem.
 
-(Note: Any uses of the term 'censorship' from this point forward refers to the
-censorship of fake news on social media, unless specified otherwise.)
+*Note: Any uses of the term 'censorship' from this point forward refers to the
+censorship of fake news on social media, unless specified otherwise.*
 
-# Analysis
+# Analysis of Fake News and Censorship
 
 This section discusses some pros and some noteworthy cons of censorship.
-Lastly, reasons for the popularity of fake news are discussed in order to
+Lastly, reasons for the quick spread of fake news are discussed in order to
 provide a basis for the alternative solution of education about fake news.
 
 ## Pros of Censorship
@@ -85,7 +83,7 @@ be exploited for political and financial motivations.
 Assuming that a large enough number of fake articles can be accurately
 identified, social media companies could remove all posts containing a link to
 the fake articles. Given the popularity of the fake articles on Facebook
-(@fakeNewsStudy), this form of censorship would certainly slow the spread. This
+[@fakeNewsStudy], this form of censorship would certainly slow the spread. This
 would reduce the advertising revenue gained from fake news, therefore reducing
 financial motivations. It would also likely reduce the effectiveness in terms
 of boosting the popularity of a party/candidate.
@@ -98,15 +96,15 @@ shooting in October 2017 led to fake news to be spread about the shooting
 Danley was the killer [13]. The Gateway Pundit, a blog, labelled Mr. Danley "a
 far left loon" [12]. These led to death threats being sent to the family
 of Mr. Danley [13]. Censorship may have been able to prevent the fake news from
-spreading and causing these threats to be sent.
+spreading and causing these hateful threats to be sent.
 
 ## Cons of Censorship
 
 Although there are benefits to censorship, there are two main reasons why
 censorship may not be a good idea. Firstly, there is a great potential for bias
 in a process that decides what news is visible to the public. Secondly, it
-*may* not be financially viable for social media companies to cooperate with
-the censorship.
+may be impractical to create and maintain an effective fake new censorship
+system.
 
 ### Potential for Biased or Corrupted Censorship
 
@@ -121,11 +119,12 @@ In response to the fake news problem during the 2016 US Presidential Election,
 Facebook created a fact checking system. Facebook users can request an article
 to be checked by independent organisations such as Politifact. If the fact
 checking organisation(s) determine that the article is fake, a 'disputed' space
-warning is displayed on the article for everyone to see [9], [10].
+warning is displayed on the article for everyone to see
+[@facebookAddRightWing@facebookAddRightWing], [10].
 
 Facebook has recently been accused of only using left-leaning fact checkers
-[9]. This shows that it is quite easy for a single organisation to create a
-bias, whether it is accidental or not.
+[@facebookAddRightWing]. This shows that it is quite easy for a single
+organisation to create a bias, whether it is accidental or not.
 
 If the fact checking system had been a censorship system instead, this bias
 could have had notable implications. A censorship system would have greater
@@ -135,38 +134,71 @@ people's beliefs, e.g. sway some right-wing citizens to become more left-wing.
 
 #### - Corrupt Censorship System in China
 
+**TODO after mention bribes from fake news sources**
+
 #### - Potential For Future Biases
 
-**TODO NExt mention bribes from fake news sources**
-**TODO AFTER figure out how to do references**
+Suppose that a fake news censorship system is in effect on some popular social
+media platform. As described in an above section, the advertising revenue of
+fake new sources should now be reduced. Fake news sources would be incentivised
+to find ways of increasing revenue. Governments could also try to influence a
+system for the purposes of exercising control over the population..
 
-### Financial Effect of Censorship on Social Media Companies
+One way for a fake news source to do this would be to interfere with the
+censorship process. They could bribe one or more fact checking organisations or
+social media companies to mark their articles as 'true'. Assuming that
+this would work on at least one fact checking organisation, the audience of
+their articles would be increased, along with advertising revenue.
 
-*TODO change to why effective censorship requires filtering through too much
-data
-(
-- too much data to censor, especially if you include personal posts
-- personal posts tweets must be censored - censoring them would be/heads towards
-an invasion of free speech.
+If the censorship system were to be introduced, there would be a large risk of
+at least one organisation being compromised would be prone to this kind of
+influence.
 
-Separate point:
-- fake news spreads too fast (TODO needs research) for the information to be
-researched thoroughly to determine censorship
-    - takes weeks to research
-)
-TODO if i go through with this then change the introduction and introduction to
-analysis/cons section
-end*
+### Impracticality of Censorship on Social Media
 
-## Why Fake News is so Popular
+It may be impractical for a censorship system to be effective against the
+spread of fake news. Firstly, fake news spreads too quickly. This does not help
+with the second problem - there is an abundance of fake news articles to
+fact-check.
 
-<!--
-- Lead up to education, and why fake news has an effect
-- TODO why is it?
-    - mention emotional reaction to fake news
--->
+#### - The Quick Spread Of Fake News
 
-# Education as an Alternative Solution
+Fake news spreads extremely quickly. A fake article posted on Twitter in
+November last year spread to several thousand people in just 5 hours
+[@nytimesReddit].
+
+The fact checking process currently takes multiple weeks
+[@facebookAddRightWing]. Given that fake news can spread in a fraction of this
+time, censorship cannot prevent the spread. Given that fake articles cannot be
+thoroughly identified quickly enough, censorship may not be reasonably
+effective.
+
+#### - Abundance of Fake News
+
+A study performed after the US 2016 Presidential Election catalogued over 150
+fake news articles [@fakeNewsStudy]. This only includes articles that were
+confirmed to be fake [@fakeNewStudy]; there was likely more faked articles
+around the time the study was conducted. Given the time it takes for a single
+article to be fact checked, this adds to the problem of fact checking been far
+too slow.
+
+## Why Fake News Spreads So Quickly
+
+Fake news articles are intentionally fabricated to strike a strong emotional
+reaction in the readers. Anger and surprise are some of the strong emotions
+that fake news sources target. If an article aligns with an existing belief or
+suspicion, this adds to the emotional reaction [@nprWhy].
+
+The emotion causes the reader to react online, for example, by sharing the
+article with others and commenting on the article. This interaction with the
+fake content tells Facebook's algorithm to display more similar, fake articles
+on the user's feed, feeding cycle [@nprWhy].
+
+# Recommendations
+
+*TODO*
+
+## Education as an Alternative Solution
 
 *TODO censorship is not recommended primarily because of the possibility of
 corruption*
@@ -179,7 +211,5 @@ corruption*
     - addresses the jo cos murder (hateful)
 - Maybe mention the facts checking system has promise
 -->
-
-bla [@fakeNewsStudy]
 
 # References
