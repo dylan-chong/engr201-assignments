@@ -19,14 +19,14 @@ bibliography: Final Report Bibliography.bib
 # Introduction
 
 Around the time of the 2016 US Presidential Election, at least 150 fake news
-articles flourished, spreading on social media websites [@fakeNewsStudy]. Given
-that these fake articles largely supported Trump [@fakeNewsStudy], and that
-Trump won the election, any concerns people have about the influence of fake
-news are well founded.
+articles flourished, spreading on social media [@fakeNewsStudy]. Given that
+these fake articles largely supported Trump [@fakeNewsStudy], and that Trump
+won the election, fake news could certainly have been an influence. It is not
+desirable to allow fake news to manipulate the outcome of elections.
 
 Since social media is a popular medium for sharing fake news [@fakeNewsStudy],
-censoring fake news may appear be the the most obvious way to prevent the above
-issue. However, as this article discusses, censorship of fake news on social
+censoring fake news may appear to be the most obvious way to prevent its
+spread. However, as this article discusses, censorship of fake news on social
 media is not a reasonable solution.
 
 This report discusses pros and cons of censorship as a solution to the fake
@@ -54,7 +54,7 @@ behaviour/thinking. Censorship would help with both of these problems.
 
 ### Preventing Malicious Motivations
 
-There are two main motivations for fake news: political and financial. This
+There are two main motivations for fake news: financial and political. This
 subsection discusses why these motivations are malicious, and how censorship
 could help to reduce these.
 
@@ -73,7 +73,8 @@ Both financial and political motivations for fake news are malicious because a
 party can be elected for false reasons, not for their true ability to run a
 country. True information about a party can easily be discredited by creating
 new false information. This makes it harder for citizens to make and accurate
-decision about who to vote for in an election.
+decision about who to vote for in an election. It is also malicious because, as
+described later in this report, fake news can incite hateful behaviour.
 
 #### - How Censorship Could Help
 
@@ -88,8 +89,9 @@ identified, social media companies could remove all posts containing a link to
 the fake articles. Given the popularity of the fake articles on Facebook
 [@fakeNewsStudy], this form of censorship would certainly slow the spread. This
 would reduce the advertising revenue gained from fake news, therefore reducing
-financial motivations. It would also likely reduce the effectiveness in terms
-of boosting the popularity of a party/candidate.
+financial motivations. Censorship would also likely reduce the effectiveness in
+terms of boosting the popularity of a party/candidate, due to the reduced
+popularity.
 
 ### Prevention of Hateful Behaviour
 
@@ -97,8 +99,8 @@ Fake news can incite hateful thinking or behaviour. For example, the Las Vegas
 shooting in October 2017 led to fake news to be spread about the shooting
 [@nytimesShooting], [@wregDeathThreats]. Among the fake news, there were false
 accusations that Geary Danley was the killer [@wregDeathThreats]. The Gateway
-Pundit, a blog, labelled Mr. Danley "a far left loon" [@nytimesShooting]. These
-led to death threats being sent to the family of Mr. Danley
+Pundit, a blog, labelled Mr. Danley using derogatory terms [@nytimesShooting].
+These led to death threats being sent to the family of Mr. Danley
 [@wregDeathThreats]. Censorship may have been able to prevent the fake news
 from spreading and causing these hateful threats to be sent.
 
@@ -107,7 +109,8 @@ from spreading and causing these hateful threats to be sent.
 Although there are benefits to censorship, there are two main reasons why
 censorship may not be a good idea. Firstly, there is a great potential for bias
 in a process that decides what news is visible to the public. Secondly, it may
-be impractical to create and maintain an effective fake news censorship system.
+be impractical to create and maintain an effective fake news censorship system
+due to the freedom of the internet.
 
 ### Potential for Biased or Corrupted Censorship
 
@@ -122,7 +125,7 @@ Facebook created a fact checking system. Facebook users can request an article
 to be checked by independent organisations such as Politifact. If the fact
 checking organisation(s) determine that the article is fake, a 'disputed' space
 warning is displayed on the article for everyone to see
-[@facebookAddRightWing@facebookAddRightWing], [@qzFacebookFactCheck].
+[@facebookAddRightWing], [@qzFacebookFactCheck].
 
 Facebook has recently been accused of only using left-leaning fact checkers
 [@facebookAddRightWing]. This shows that it is quite easy for a single
@@ -132,21 +135,22 @@ If the fact checking system had been a censorship system instead, this bias
 could have had notable implications. A censorship system would have greater
 implications than a fact-checking system because it involves choosing what
 information people will be able to see. The system could be exploited to affect
-people's beliefs, e.g. sway some right-wing citizens to become more left-wing.
+people's beliefs, e.g. influence some right-wing citizens to become more left-wing.
 
 #### - Potential For Future Biases
 
 Suppose that a fake news censorship system is in effect on some popular social
-media platform. As described in an above section, the advertising revenue of
+media platforms. As described in an above section, the advertising revenue of
 fake new sources should now be reduced. Fake news sources would be incentivised
-to find ways of increasing revenue. Governments could also try to influence a
-system for the purposes of exercising control over the population.
+to find ways of increasing revenue. Governments, especially corrupt ones, could
+also try to influence a system for the purposes of exercising control over
+populations.
 
-One way for a fake news source to do this would be to interfere with the
-censorship process. They could bribe one or more fact checking organisations or
-social media companies to mark their articles as 'true'. Assuming that
-this would work on at least one fact checking organisation, the audience of
-their articles would be increased, along with advertising revenue.
+One way to influence the system would be to bribe one or more fact checking
+organisations, or even social media companies, to mark certain articles as
+'true'. Assuming that this would work on at least one fact checking
+organisation, the audience of their articles would be increased, along with
+advertising revenue.
 
 If the censorship system were to be introduced, there would be a large risk of
 at least one organisation being compromised.
@@ -160,15 +164,14 @@ fact-check.
 
 #### - The Quick Spread Of Fake News
 
-Fake news spreads extremely quickly. A fake article posted on Twitter in
-November last year spread to several thousand people in just 5 hours
-[@nytimesReddit].
+Fake news spreads extremely quickly. Within 5 hours, several thousand people
+interacted with a fake article posted on Twitter in November last year
+[@nytimesReddit]. It is likely many more people saw the article.
 
 The fact checking process currently takes multiple weeks
 [@facebookAddRightWing]. Given that fake news can spread in a fraction of this
-time, censorship cannot prevent the spread. Given that fake articles cannot be
-thoroughly identified quickly enough, censorship may not be reasonably
-effective.
+time, censorship will not work - the article will have already spread to
+(at least) several thousand people by the time it can be censored.
 
 #### - Abundance of Fake News
 
@@ -188,8 +191,9 @@ suspicion, this adds to the emotional reaction [@nprWhy].
 
 The emotion causes the reader to react online, for example, by sharing the
 article with others and commenting on the article. This interaction with the
-fake content tells Facebook's algorithm to display more similar, fake articles
-on the user's feed, feeding cycle [@nprWhy].
+fake content increases its popularity, and tells Facebook's algorithm to
+suggest more similar, fake articles on the user's feed, feeding cycle
+[@nprWhy].
 
 # Recommendations
 
