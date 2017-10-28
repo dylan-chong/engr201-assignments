@@ -41,7 +41,7 @@ news problem.
 *Note: Any uses of the term 'censorship' from this point forward refers to the
 censorship of fake news on social media, unless specified otherwise.*
 
-# Analysis of Fake News and Censorship
+# Analysis of Censorship and Fake News
 
 This section discusses some pros and some noteworthy cons of censorship.
 Lastly, reasons for the quick spread of fake news are discussed in order to
